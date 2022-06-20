@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.palladiosimulator.dataflow.confidentiality.pcm.feature"
+      label="Toplevel Dataflow Confidentiality PCM Feature"
+      version="5.1.0.qualifier">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <includes
+         id="org.palladiosimulator.dataflow.confidentiality.pcm.dddsl.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.palladiosimulator.dataflow.confidentiality.pcm.editor.sirius.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.palladiosimulator.dataflow.confidentiality.pcm.editor.tree.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.palladiosimulator.dataflow.confidentiality.pcm.model.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.palladiosimulator.dataflow.confidentiality.pcm.ui.feature"
+         version="0.0.0"/>
+
+</feature>
