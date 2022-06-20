@@ -3,8 +3,8 @@ name: Build Pipeline
 on: [push, pull_request, workflow_dispatch]
 
 jobs:
-  Palladio-Addons-DataFlowConfidentiality:
-    runs-on: ubuntu-latest
+  Palladio-Addons-DataFlowConfidentiality-Metamodel:
+    runs-on: self-hosted
     steps:
       - uses: PalladioSimulator/Palladio-Build-ActionsPipeline@v2
         with:
