@@ -79,42 +79,6 @@
 			<repository location="https://updatesite.palladio-simulator.com/palladio-supporting-workflowengine/releases/latest"/>
 		</location>
 		<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="false" type="InstallableUnit" filter="nightly">
-			<unit id="org.palladiosimulator.supporting.prolog.ui.feature.feature.group" version="0.0.0"/>
-			<repository location="https://updatesite.palladio-simulator.com/fluidtrust/palladio-supporting-prolog/nightly/"/>
-		</location>
-		<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="false" type="InstallableUnit" filter="release">
-			<unit id="org.palladiosimulator.supporting.prolog.ui.feature.feature.group" version="0.0.0"/>
-			<repository location="https://updatesite.palladio-simulator.com/fluidtrust/palladio-supporting-prolog/releases/latest/"/>
-		</location>
-		<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="false" type="InstallableUnit" filter="nightly">
-			<unit id="org.palladiosimulator.dataflow.diagram.editor.sirius.feature.feature.group" version="0.0.0"/>
-			<repository location="https://updatesite.palladio-simulator.com/fluidtrust/palladio-supporting-dataflowdiagram/nightly/"/>
-		</location>
-		<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="false" type="InstallableUnit" filter="release">
-			<unit id="org.palladiosimulator.dataflow.diagram.editor.sirius.feature.feature.group" version="0.0.0"/>
-			<repository location="https://updatesite.palladio-simulator.com/fluidtrust/palladio-supporting-dataflowdiagram/releases/latest/"/>
-		</location>
-		<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="false" type="InstallableUnit" filter="nightly">
-			<unit id="org.palladiosimulator.dataflow.confidentiality.transformation.feature.feature.group" version="0.0.0"/>
-			<unit id="org.palladiosimulator.dataflow.confidentiality.ui.feature.feature.group" version="0.0.0"/>
-			<repository location="https://updatesite.palladio-simulator.com/fluidtrust/palladio-supporting-dataflowdiagramconfidentiality/nightly/"/>
-		</location>
-		<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="false" type="InstallableUnit" filter="release">
-			<unit id="org.palladiosimulator.dataflow.confidentiality.transformation.feature.feature.group" version="0.0.0"/>
-			<unit id="org.palladiosimulator.dataflow.confidentiality.ui.feature.feature.group" version="0.0.0"/>
-			<repository location="https://updatesite.palladio-simulator.com/fluidtrust/palladio-supporting-dataflowdiagramconfidentiality/releases/latest/"/>
-		</location>
-		<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="false" type="InstallableUnit" filter="nightly">
-			<unit id="org.prolog4j.swicli.feature.feature.group" version="0.0.0"/>
-			<unit id="org.prolog4j.swicli.enabler.feature.feature.group" version="0.0.0"/>
-			<repository location="https://updatesite.palladio-simulator.com/fluidtrust/palladio-supporting-prolog4j/nightly/"/>
-		</location>
-		<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="false" type="InstallableUnit" filter="release">
-			<unit id="org.prolog4j.swicli.feature.feature.group" version="0.0.0"/>
-			<unit id="org.prolog4j.swicli.enabler.feature.feature.group" version="0.0.0"/>
-			<repository location="https://updatesite.palladio-simulator.com/fluidtrust/palladio-supporting-prolog4j/releases/latest/"/>
-		</location>
-		<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="false" type="InstallableUnit" filter="nightly">
 			<unit id="tools.mdsd.library.emfeditutils.feature.feature.group" version="0.0.0"/>
 			<repository location="https://updatesite.mdsd.tools/library-emfeditutils/nightly/"/>
 		</location>
