@@ -47,22 +47,22 @@ public class DDDslProposalProviderTest {
         builder = new ContentAssistProcessorTestBuilder(injector, this::getResourceFor);
     }
 
-    @Test
-    public void testSuggestOutputVariables() throws Exception {
-        builder = builder.append(
-                "dictionary id \"123\" behavior b1 {input in11 input in12 output out11 } behavior b2 {input in21 input in22 output out21 ");
-        builder.assertProposal("output");
-        builder.assertProposal("}");
-        builder.assertProposal("out21");
-    }
-
-    @Test
-    public void testSuggestInputVariables() throws Exception {
-        builder = builder.append(
-                "dictionary id \"123\" behavior b1 {input in11 input in12 output out11 } behavior b2 {input in21 input in22 output out21 out21.*.* := ");
-        builder.assertProposal("in21");
-        builder.assertProposal("in22");
-    }
+//    @Test
+//    public void testSuggestOutputVariables() throws Exception {
+//        builder = builder.append(
+//                "dictionary id \"123\" behavior b1 {input in11 input in12 output out11 } behavior b2 {input in21 input in22 output out21 ");
+//        builder.assertProposal("output");
+//        builder.assertProposal("}");
+//        builder.assertProposal("out21");
+//    }
+//
+//    @Test
+//    public void testSuggestInputVariables() throws Exception {
+//        builder = builder.append(
+//                "dictionary id \"123\" behavior b1 {input in11 input in12 output out11 } behavior b2 {input in21 input in22 output out21 out21.*.* := ");
+//        builder.assertProposal("in21");
+//        builder.assertProposal("in22");
+//    }
 
     protected XtextResource getResourceFor(InputStream stream) {
         XtextResourceSet resourceSet = resourceSetProvider.get();
