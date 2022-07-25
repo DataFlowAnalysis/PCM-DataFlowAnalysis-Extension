@@ -7,19 +7,8 @@
       license-feature="org.palladiosimulator.license.epl2"
       license-feature-version="1.0.0">
 
-   <requires>
-      <import feature="org.palladiosimulator.dataflow.confidentiality.model.feature" version="0.1.0.qualifier"/>
-   </requires>
-
    <plugin
          id="org.palladiosimulator.dataflow.confidentiality.pcm.model"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.palladiosimulator.dataflow.confidentiality.pcm.resources"
          download-size="0"
          install-size="0"
          version="0.0.0"

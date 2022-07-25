@@ -8,7 +8,6 @@ import tools.mdsd.ecoreworkflow.mwe2lib.component.*
 
 var workspaceRoot = "../../"
 var dataDictionaryProjectName = "org.palladiosimulator.dataflow.dictionary.characterized"
-var dataFlowDiagramProjectName = "org.palladiosimulator.dataflow.diagram.characterized"
 
 Workflow {
 

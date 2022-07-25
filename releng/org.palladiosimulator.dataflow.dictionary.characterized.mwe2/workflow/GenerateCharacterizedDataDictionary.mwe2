@@ -7,7 +7,6 @@ import tools.mdsd.ecoreworkflow.mwe2lib.bean.EclipseRCPSupportingStandaloneSetup
 var workspaceRoot = "../.."
 var rootPath = "${workspaceRoot}/bundles"
 var dataDictionaryProjectName = "org.palladiosimulator.dataflow.dictionary.characterized"
-var dataFlowDiagramProjectName = "org.palladiosimulator.dataflow.diagram.characterized"
 var baseName = "org.palladiosimulator.dataflow.dictionary.characterized.dsl"
 
 Workflow {
