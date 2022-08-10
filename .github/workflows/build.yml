@@ -7,7 +7,7 @@ jobs:
     uses: PalladioSimulator/Palladio-Build-ActionsPipeline/.github/workflows/build.yml@Custom-caching
     with:
       use-display-output: true
-      java-version: 11
+      java-version: 17
       deploy-updatesite: 'releng/org.palladiosimulator.dataflow.metamodel.updatesite/target/repository'
     secrets:
       SERVER_SSH_KEY: ${{ secrets.DEPLOYMENT_SERVER_SSH_KEY }}
