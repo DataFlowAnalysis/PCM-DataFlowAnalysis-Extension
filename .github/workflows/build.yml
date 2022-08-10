@@ -8,7 +8,6 @@ jobs:
     with:
       use-display-output: true
       java-version: 17
-      no-caching: true
       deploy-updatesite: 'releng/org.palladiosimulator.dataflow.metamodel.updatesite/target/repository'
     secrets:
       SERVER_SSH_KEY: ${{ secrets.DEPLOYMENT_SERVER_SSH_KEY }}
