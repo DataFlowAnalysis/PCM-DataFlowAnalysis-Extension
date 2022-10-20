@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="org.palladiosimulator.dataflow.dictionary.feature"
+      id="org.palladiosimulator.dataflow.dictionary.characterized.feature"
       label="Toplevel Dataflow Dictionary Feature"
       version="5.1.0.qualifier">
 
@@ -17,15 +17,15 @@
    </license>
 
    <includes
-         id="org.palladiosimulator.dataflow.dictionary.editor.sirius.feature"
+         id="org.palladiosimulator.dataflow.dictionary.characterized.dsl.feature"
          version="0.0.0"/>
 
    <includes
-         id="org.palladiosimulator.dataflow.dictionary.editor.tree.feature"
+         id="org.palladiosimulator.dataflow.dictionary.characterized.editor.feature"
          version="0.0.0"/>
 
    <includes
-         id="org.palladiosimulator.dataflow.dictionary.model.feature"
+         id="org.palladiosimulator.dataflow.dictionary.characterized.model.feature"
          version="0.0.0"/>
 
 </feature>

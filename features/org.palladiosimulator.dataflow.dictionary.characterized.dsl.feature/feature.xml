@@ -17,7 +17,7 @@
    </license>
 
    <requires>
-      <import feature="org.palladiosimulator.dataflow.dictionary.model.feature" version="5.1.0.qualifier"/>
+      <import feature="org.palladiosimulator.dataflow.dictionary.characterized.model.feature" version="5.1.0.qualifier"/>
    </requires>
 
    <plugin
