@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="org.palladiosimulator.dataflow.dictionary.characterized.feature"
-      label="Toplevel Dataflow Dictionary Feature"
+      label="Toplevel Dataflow Dictionary Characterized Feature"
       version="5.1.0.qualifier">
 
    <description url="http://www.example.com/description">
