@@ -27,6 +27,18 @@
    <feature id="org.palladiosimulator.dataflow.dictionary.characterized.dsl.feature">
       <category name="org.palladiosimulator.dataflow.dictionary.category"/>
    </feature>
+   <feature id="org.palladiosimulator.dataflow.dictionary.characterized.model.feature">
+      <category name="org.palladiosimulator.dataflow.dictionary.category"/>
+   </feature>
+   <feature id="org.palladiosimulator.dataflow.dictionary.characterized.editor.feature">
+      <category name="org.palladiosimulator.dataflow.dictionary.category"/>
+   </feature>
+   <feature id="org.palladiosimulator.dataflow.dictionary.feature">
+      <category name="org.palladiosimulator.dataflow.dictionary.category"/>
+   </feature>
+   <feature id="org.palladiosimulator.dataflow.dictionary.characterized.feature">
+      <category name="org.palladiosimulator.dataflow.dictionary.category"/>
+   </feature>
    <category-def name="org.palladiosimulator.dataflow.confidentiality.pcm.category" label="PCM Data Flow Confidentiality"/>
    <category-def name="org.palladiosimulator.dataflow.dictionary.category" label="Data Flow Dictionary"/>
 </site>
