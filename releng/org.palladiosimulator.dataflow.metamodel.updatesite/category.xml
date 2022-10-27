@@ -36,6 +36,9 @@
    <feature id="org.palladiosimulator.dataflow.dictionary.characterized.feature">
       <category name="org.palladiosimulator.dataflow.dictionary.category"/>
    </feature>
+   <feature id="org.palladiosimulator.dataflow.confidentiality.pcm.ui.feature">
+      <category name="org.palladiosimulator.dataflow.confidentiality.pcm.category"/>
+   </feature>
    <category-def name="org.palladiosimulator.dataflow.confidentiality.pcm.category" label="PCM Data Flow Confidentiality"/>
    <category-def name="org.palladiosimulator.dataflow.dictionary.category" label="Data Flow Dictionary"/>
 </site>
