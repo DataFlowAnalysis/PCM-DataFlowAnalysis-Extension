@@ -12,9 +12,6 @@
    <feature id="org.palladiosimulator.dataflow.confidentiality.pcm.editor.sirius.feature">
       <category name="org.palladiosimulator.dataflow.confidentiality.pcm.category"/>
    </feature>
-   <feature id="org.palladiosimulator.dataflow.confidentiality.pcm.ui.feature">
-      <category name="org.palladiosimulator.dataflow.confidentiality.pcm.category"/>
-   </feature>
    <feature id="org.palladiosimulator.dataflow.dictionary.model.feature">
       <category name="org.palladiosimulator.dataflow.dictionary.category"/>
    </feature>
