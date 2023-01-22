@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>NodeCharacteristicAssignments</name>
+	<name>org.palladiosimulator.dataflow.nodecharacteristics</name>
 	<comment></comment>
 	<projects>
 	</projects>

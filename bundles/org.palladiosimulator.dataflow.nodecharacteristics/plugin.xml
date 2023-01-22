@@ -10,7 +10,7 @@
       <!-- @generated nodeCharacteristics -->
       <package
             uri="http://www.example.org/nodeCharacteristics"
-            class="nodeCharacteristics.NodeCharacteristicsPackage"
+            class="org.palladiosimulator.dataflow.nodecharacteristics.nodecharacteristics.NodeCharacteristicsPackage"
             genModel="model/nodeCharacteristics.genmodel"/>
    </extension>
 
