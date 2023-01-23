@@ -12,8 +12,8 @@
   <foreignModel>nodeCharacteristics.ecore</foreignModel>
   <modelPluginVariables>CDO=org.eclipse.emf.cdo</modelPluginVariables>
   <editPluginVariables>CDO_EDIT=org.eclipse.emf.cdo.edit</editPluginVariables>
-  <genPackages prefix="NodeCharacteristics" basePackage="org.palladiosimulator.dataflow.nodecharacteristics" 
-  disposableProviderFactory="true" extensibleProviderFactory="true" childCreationExtenders="true"
+  <genPackages prefix="NodeCharacteristics" basePackage="org.palladiosimulator.dataflow.nodecharacteristics"
+      disposableProviderFactory="true" extensibleProviderFactory="true" childCreationExtenders="true"
       ecorePackage="nodeCharacteristics.ecore#/">
     <genClasses ecoreClass="nodeCharacteristics.ecore#//UsageAsignee">
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference nodeCharacteristics.ecore#//UsageAsignee/usagescenario"/>
@@ -24,14 +24,17 @@
     <genClasses ecoreClass="nodeCharacteristics.ecore#//AssemblyAssignee">
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference nodeCharacteristics.ecore#//AssemblyAssignee/assemblycontext"/>
     </genClasses>
-    <genClasses image="false" ecoreClass="nodeCharacteristics.ecore#//AbstractAssignee">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference nodeCharacteristics.ecore#//AbstractAssignee/assignment"/>
-    </genClasses>
-    <genClasses image="false" ecoreClass="nodeCharacteristics.ecore#//AbstractAssignment">
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference nodeCharacteristics.ecore#//AbstractAssignment/characteristics"/>
-    </genClasses>
+    <genClasses image="false" ecoreClass="nodeCharacteristics.ecore#//AbstractAssignee"/>
+    <genClasses ecoreClass="nodeCharacteristics.ecore#//CharacteristicAssignment"/>
     <genClasses ecoreClass="nodeCharacteristics.ecore#//Assignments">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference nodeCharacteristics.ecore#//Assignments/abstractassignee"/>
+      <genFeatures notify="false" children="true" createChild="true" propertySortChoices="true"
+          ecoreFeature="ecore:EReference nodeCharacteristics.ecore#//Assignments/nodecharacteristics"/>
+    </genClasses>
+    <genClasses ecoreClass="nodeCharacteristics.ecore#//NodeCharacteristicAssignment">
+      <genFeatures property="None" children="true" createChild="true" propertySortChoices="true"
+          ecoreFeature="ecore:EReference nodeCharacteristics.ecore#//NodeCharacteristicAssignment/assignee"/>
+      <genFeatures property="None" children="true" createChild="true" propertyMultiLine="true"
+          propertySortChoices="true" ecoreFeature="ecore:EReference nodeCharacteristics.ecore#//NodeCharacteristicAssignment/characteristics"/>
     </genClasses>
   </genPackages>
 </genmodel:GenModel>
