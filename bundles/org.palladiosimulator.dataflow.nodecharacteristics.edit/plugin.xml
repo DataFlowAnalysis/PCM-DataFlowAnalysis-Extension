@@ -5,6 +5,7 @@
 -->
 
 <plugin>
+
    <extension point="org.eclipse.emf.edit.itemProviderAdapterFactories">
       <!-- @generated nodeCharacteristics -->
       <factory

@@ -23,6 +23,7 @@ Require-Bundle: org.eclipse.core.runtime,
  de.uka.ipd.sdq.probfunction.edit;visibility:=reexport,
  de.uka.ipd.sdq.stoex.edit;visibility:=reexport,
  de.uka.ipd.sdq.units.edit;visibility:=reexport,
+ org.palladiosimulator.indirections.edit;visibility:=reexport,
  org.apache.commons.io;bundle-version="2.6.0"
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-11

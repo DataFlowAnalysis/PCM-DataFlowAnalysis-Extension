@@ -14,4 +14,11 @@
             genModel="model/nodeCharacteristics.genmodel"/>
    </extension>
 
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated nodeCharacteristics -->
+      <parser
+            type="nodecharacteristics"
+            class="org.palladiosimulator.dataflow.nodecharacteristics.nodecharacteristics.util.NodeCharacteristicsResourceFactoryImpl"/>
+   </extension>
+
 </plugin>

@@ -14,16 +14,13 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="assemblycontext" lowerBound="1"
         eType="ecore:EClass platform:/plugin/org.palladiosimulator.pcm/model/pcm.ecore#//core/composition/AssemblyContext"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="AbstractAssignee" abstract="true"/>
-  <eClassifiers xsi:type="ecore:EClass" name="CharacteristicAssignment"/>
-  <eClassifiers xsi:type="ecore:EClass" name="Assignments">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="nodecharacteristics" upperBound="-1"
-        eType="#//NodeCharacteristicAssignment" containment="true"/>
-  </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="NodeCharacteristicAssignment">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="assignee" lowerBound="1"
-        eType="#//AbstractAssignee" containment="true"/>
+  <eClassifiers xsi:type="ecore:EClass" name="AbstractAssignee" abstract="true">
     <eStructuralFeatures xsi:type="ecore:EReference" name="characteristics" upperBound="-1"
-        eType="#//CharacteristicAssignment" containment="true"/>
+        eType="ecore:EClass platform:/plugin/org.palladiosimulator.dataflow.confidentiality.pcm.model/model/dataFlowConfidentiality.ecore#//characteristics/EnumCharacteristic"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Assignments">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="assignee" upperBound="-1"
+        eType="#//AbstractAssignee" containment="true"/>
   </eClassifiers>
 </ecore:EPackage>

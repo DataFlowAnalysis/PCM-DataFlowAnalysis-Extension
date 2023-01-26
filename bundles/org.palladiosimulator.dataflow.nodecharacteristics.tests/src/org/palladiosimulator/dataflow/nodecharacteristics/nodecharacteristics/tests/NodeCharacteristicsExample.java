@@ -17,11 +17,11 @@ import org.eclipse.emf.ecore.resource.impl.ResourceSetImpl;
 
 import org.eclipse.emf.ecore.util.Diagnostician;
 
-import org.eclipse.emf.ecore.xmi.impl.XMIResourceFactoryImpl;
-
 import org.palladiosimulator.dataflow.nodecharacteristics.nodecharacteristics.NodeCharacteristicsFactory;
 import org.palladiosimulator.dataflow.nodecharacteristics.nodecharacteristics.NodeCharacteristicsPackage;
 import org.palladiosimulator.dataflow.nodecharacteristics.nodecharacteristics.UsageAsignee;
+
+import org.palladiosimulator.dataflow.nodecharacteristics.nodecharacteristics.util.NodeCharacteristicsResourceFactoryImpl;
 
 /**
  * <!-- begin-user-doc -->
@@ -46,7 +46,7 @@ public class NodeCharacteristicsExample {
 		//
 		resourceSet.getResourceFactoryRegistry().getExtensionToFactoryMap().put
 			(Resource.Factory.Registry.DEFAULT_EXTENSION, 
-			 new XMIResourceFactoryImpl());
+			 new NodeCharacteristicsResourceFactoryImpl());
 
 		// Register the package to ensure it is available during loading.
 		//

@@ -12,6 +12,7 @@ Export-Package: org.palladiosimulator.dataflow.nodecharacteristics.nodecharacter
 Require-Bundle: org.eclipse.core.runtime,
  org.palladiosimulator.dataflow.nodecharacteristics;visibility:=reexport,
  org.palladiosimulator.dataflow.dictionary;visibility:=reexport,
+ org.palladiosimulator.dataflow.confidentiality.pcm.model;visibility:=reexport,
  org.palladiosimulator.dataflow.dictionary.characterized;visibility:=reexport,
  org.eclipse.emf.ecore;visibility:=reexport,
  de.uka.ipd.sdq.identifier;visibility:=reexport,
@@ -19,6 +20,7 @@ Require-Bundle: org.eclipse.core.runtime,
  de.uka.ipd.sdq.probfunction;visibility:=reexport,
  de.uka.ipd.sdq.stoex;visibility:=reexport,
  de.uka.ipd.sdq.units;visibility:=reexport,
+ org.palladiosimulator.indirections;visibility:=reexport,
  org.eclipse.emf.ecore.xmi;visibility:=reexport,
  org.junit;visibility:=reexport
 Bundle-ActivationPolicy: lazy

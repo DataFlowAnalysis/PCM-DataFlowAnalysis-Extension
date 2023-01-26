@@ -13,12 +13,15 @@ Export-Package: org.palladiosimulator.dataflow.nodecharacteristics.nodecharacter
  org.palladiosimulator.dataflow.nodecharacteristics.nodecharacteristics.util
 Require-Bundle: org.eclipse.emf.ecore;visibility:=reexport,
  org.eclipse.emf.cdo;visibility:=reexport,
+ org.eclipse.emf.ecore.xmi;visibility:=reexport,
  org.palladiosimulator.dataflow.dictionary;visibility:=reexport,
+ org.palladiosimulator.dataflow.confidentiality.pcm.model;visibility:=reexport,
  org.palladiosimulator.dataflow.dictionary.characterized;visibility:=reexport,
  de.uka.ipd.sdq.identifier;visibility:=reexport,
  org.palladiosimulator.pcm;visibility:=reexport,
  de.uka.ipd.sdq.probfunction;visibility:=reexport,
  de.uka.ipd.sdq.stoex;visibility:=reexport,
  de.uka.ipd.sdq.units;visibility:=reexport,
+ org.palladiosimulator.indirections;visibility:=reexport,
  org.eclipse.core.runtime
 Bundle-ActivationPolicy: lazy
