@@ -13,4 +13,4 @@ Require-Bundle: org.eclipse.emf.mwe2.launch;bundle-version="2.10.0",
  org.apache.commons.logging;bundle-version="1.2.0",
  de.uka.ipd.sdq.identifier;bundle-version="4.2.0",
  org.objectweb.asm
-Bundle-RequiredExecutionEnvironment: JavaSE-11
+Bundle-RequiredExecutionEnvironment: JavaSE-17

@@ -4,7 +4,7 @@ Bundle-Name: Testmodels
 Bundle-SymbolicName: org.palladiosimulator.dataflow.confidentiality.pcm.testmodels
 Bundle-Version: 5.1.0.qualifier
 Automatic-Module-Name: org.palladiosimulator.dataflow.confidentiality.pcm.testmodels
-Bundle-RequiredExecutionEnvironment: JavaSE-11
+Bundle-RequiredExecutionEnvironment: JavaSE-17
 Bundle-ActivationPolicy: lazy
 Bundle-Activator: org.palladiosimulator.dataflow.confidentiality.pcm.testmodels.Activator
 Require-Bundle: org.eclipse.core.runtime;bundle-version="3.15.0",

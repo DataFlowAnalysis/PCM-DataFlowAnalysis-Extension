@@ -4,7 +4,7 @@ Bundle-Name: Workflow
 Bundle-SymbolicName: org.palladiosimulator.dataflow.dictionary.characterized.mwe2
 Bundle-Version: 5.1.0.qualifier
 Automatic-Module-Name: org.palladiosimulator.dataflow.dictionary.characterized.mwe2
-Bundle-RequiredExecutionEnvironment: JavaSE-11
+Bundle-RequiredExecutionEnvironment: JavaSE-17
 Require-Bundle: org.eclipse.xtext.generator,
  org.apache.commons.logging,
  org.eclipse.uml2.codegen.ecore,

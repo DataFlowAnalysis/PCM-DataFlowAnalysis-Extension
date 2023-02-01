@@ -16,5 +16,5 @@ Require-Bundle: org.palladiosimulator.dataflow.confidentiality.pcm.dddsl.ui,
  org.eclipse.xtext.ui.testing,
  org.eclipse.ui.workbench;resolution:=optional,
  tools.mdsd.junit5utils;bundle-version="0.1.0"
-Bundle-RequiredExecutionEnvironment: JavaSE-11
+Bundle-RequiredExecutionEnvironment: JavaSE-17
 Export-Package: org.palladiosimulator.dataflow.confidentiality.pcm.dddsl.ui.tests;x-internal=true

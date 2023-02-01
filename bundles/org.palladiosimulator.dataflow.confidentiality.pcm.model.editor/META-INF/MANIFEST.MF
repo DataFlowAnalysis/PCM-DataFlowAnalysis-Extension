@@ -23,7 +23,7 @@ Require-Bundle: org.eclipse.core.runtime,
  de.uka.ipd.sdq.units.edit;visibility:=reexport,
  org.apache.commons.io;bundle-version="2.6.0"
 Bundle-ActivationPolicy: lazy
-Bundle-RequiredExecutionEnvironment: JavaSE-11
+Bundle-RequiredExecutionEnvironment: JavaSE-17
 Export-Package: org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.characteristics.presentation,
  org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.expression.presentation,
  org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.presentation

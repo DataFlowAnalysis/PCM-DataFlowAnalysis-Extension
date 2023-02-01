@@ -14,7 +14,7 @@ Require-Bundle: org.palladiosimulator.dataflow.confidentiality.pcm.model;visibil
  org.eclipse.xtext.util,
  org.antlr.runtime;bundle-version="[3.2.0,3.2.1)",
  org.palladiosimulator.dataflow.dictionary.characterized.dsl;bundle-version="1.0.0";visibility:=reexport
-Bundle-RequiredExecutionEnvironment: JavaSE-11
+Bundle-RequiredExecutionEnvironment: JavaSE-17
 Export-Package: org.palladiosimulator.dataflow.confidentiality.pcm.dddsl.serializer,
  org.palladiosimulator.dataflow.confidentiality.pcm.dddsl.generator,
  org.palladiosimulator.dataflow.confidentiality.pcm.dddsl.services,

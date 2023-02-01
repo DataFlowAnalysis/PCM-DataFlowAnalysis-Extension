@@ -4,7 +4,7 @@ Bundle-Name: Data Flow Diagram UI Components
 Bundle-SymbolicName: org.palladiosimulator.dataflow.ui.table;singleton:=true
 Bundle-Version: 5.1.0.qualifier
 Automatic-Module-Name: org.palladiosimulator.dataflow.ui
-Bundle-RequiredExecutionEnvironment: JavaSE-11
+Bundle-RequiredExecutionEnvironment: JavaSE-17
 Require-Bundle: org.eclipse.eef.core,
  org.eclipse.eef,
  org.eclipse.sirius.common.interpreter,
