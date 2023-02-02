@@ -7,8 +7,8 @@
         eType="ecore:EClass platform:/plugin/org.palladiosimulator.pcm/model/pcm.ecore#//usagemodel/UsageScenario"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="RessourceAssignee" eSuperTypes="#//AbstractAssignee">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="resourceenvironment" lowerBound="1"
-        eType="ecore:EClass platform:/plugin/org.palladiosimulator.pcm/model/pcm.ecore#//resourceenvironment/ResourceEnvironment"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="resourcecontainer" lowerBound="1"
+        eType="ecore:EClass platform:/plugin/org.palladiosimulator.pcm/model/pcm.ecore#//resourceenvironment/ResourceContainer"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="AssemblyAssignee" eSuperTypes="#//AbstractAssignee">
     <eStructuralFeatures xsi:type="ecore:EReference" name="assemblycontext" lowerBound="1"

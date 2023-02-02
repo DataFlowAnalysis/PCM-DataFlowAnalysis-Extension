@@ -19,7 +19,7 @@
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference nodeCharacteristics.ecore#//UsageAsignee/usagescenario"/>
     </genClasses>
     <genClasses ecoreClass="nodeCharacteristics.ecore#//RessourceAssignee">
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference nodeCharacteristics.ecore#//RessourceAssignee/resourceenvironment"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference nodeCharacteristics.ecore#//RessourceAssignee/resourcecontainer"/>
     </genClasses>
     <genClasses ecoreClass="nodeCharacteristics.ecore#//AssemblyAssignee">
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference nodeCharacteristics.ecore#//AssemblyAssignee/assemblycontext"/>
