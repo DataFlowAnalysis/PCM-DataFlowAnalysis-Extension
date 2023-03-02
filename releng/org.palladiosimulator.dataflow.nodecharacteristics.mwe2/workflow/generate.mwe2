@@ -1,0 +1,40 @@
+module generate
+
+import org.eclipse.emf.mwe2.ecore.EcoreGenerator
+import tools.mdsd.ecoreworkflow.mwe2lib.bean.EclipseRCPSupportingStandaloneSetup
+import tools.mdsd.ecoreworkflow.mwe2lib.component.ContextDependentMapping
+import tools.mdsd.ecoreworkflow.mwe2lib.component.URISupportingDirectoryCleaner
+import tools.mdsd.ecoreworkflow.mwe2lib.component.GapPatternPostProcessor
+
+var workspaceRoot = "../../"
+
+Workflow {
+	
+	bean = EclipseRCPSupportingStandaloneSetup {
+		scanClassPath = true
+		platformUri = workspaceRoot
+		
+		uriMap = {
+			from = "platform:/plugin/de.uka.ipd.sdq.identifier/model/identifier.genmodel"
+			to = "platform:/resource/de.uka.ipd.sdq.identifier/model/identifier.genmodel"
+		}
+		uriMap = {
+			from = "platform:/plugin/de.uka.ipd.sdq.identifier/model/identifier.ecore"
+			to = "platform:/resource/de.uka.ipd.sdq.identifier/model/identifier.ecore"
+		}
+		
+		registerGenModelFile = "platform:/resource/de.uka.ipd.sdq.identifier/model/identifier.genmodel"
+	}
+
+	component = EcoreGenerator {
+		generateCustomClasses = false
+		generateEdit = true
+		generateEditor = true
+		generateTests = false
+		genModel = "platform:/resource/org.palladiosimulator.dataflow.nodecharacteristics/model/nodeCharacteristics.genmodel"
+		srcPath = "platform:/resource/org.palladiosimulator.dataflow.nodecharacteristics/src-gen"
+		srcPath = "platform:/resource/org.palladiosimulator.dataflow.nodecharacteristics.edit/src-gen"
+		srcPath = "platform:/resource/org.palladiosimulator.dataflow.nodecharacteristics.editor/src-gen"
+	}
+
+}

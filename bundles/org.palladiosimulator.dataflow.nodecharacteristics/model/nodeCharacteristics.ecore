@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="nodecharacteristics" nsURI="http://www.example.org/nodeCharacteristics"
+    nsPrefix="nodecharacteristics">
+  <eClassifiers xsi:type="ecore:EClass" name="UsageAsignee" eSuperTypes="#//AbstractAssignee">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="usagescenario" lowerBound="1"
+        eType="ecore:EClass platform:/plugin/org.palladiosimulator.pcm/model/pcm.ecore#//usagemodel/UsageScenario"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RessourceAssignee" eSuperTypes="#//AbstractAssignee">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="resourcecontainer" lowerBound="1"
+        eType="ecore:EClass platform:/plugin/org.palladiosimulator.pcm/model/pcm.ecore#//resourceenvironment/ResourceContainer"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AssemblyAssignee" eSuperTypes="#//AbstractAssignee">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="assemblycontext" lowerBound="1"
+        eType="ecore:EClass platform:/plugin/org.palladiosimulator.pcm/model/pcm.ecore#//core/composition/AssemblyContext"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AbstractAssignee" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="characteristics" upperBound="-1"
+        eType="ecore:EClass platform:/plugin/org.palladiosimulator.dataflow.confidentiality.pcm.model/model/dataFlowConfidentiality.ecore#//characteristics/EnumCharacteristic"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Assignments">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="assignee" upperBound="-1"
+        eType="#//AbstractAssignee" containment="true"/>
+  </eClassifiers>
+</ecore:EPackage>
