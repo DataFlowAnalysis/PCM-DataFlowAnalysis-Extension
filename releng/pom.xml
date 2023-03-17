@@ -17,6 +17,7 @@
 		<module>org.palladiosimulator.dataflow.dictionary.mwe2</module>
 		<module>org.palladiosimulator.dataflow.dictionary.characterized.mwe2</module>
 		<module>org.palladiosimulator.dataflow.confidentiality.pcm.mwe2</module>
+		<module>org.palladiosimulator.dataflow.nodecharacteristics.mwe2</module>
 		<module>org.palladiosimulator.dataflow.metamodel.updatesite</module>
 	</modules>
 	
