@@ -1,16 +1,27 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Data Flow Diagram MWE2
+Bundle-Name: MWE2
 Bundle-SymbolicName: org.palladiosimulator.dataflow.nodecharacteristics.mwe2
 Bundle-Version: 5.1.0.qualifier
-Automatic-Module-Name: org.palladiosimulator.dataflow.dictionary.mwe2
+Automatic-Module-Name: org.palladiosimulator.dataflow.nodecharacteristics.mwe2
+Bundle-RequiredExecutionEnvironment: JavaSE-17
 Require-Bundle: org.eclipse.emf.mwe2.launch,
  org.eclipse.emf.mwe2.lib,
+ org.eclipse.emf.mwe2.runtime;bundle-version="2.10.0",
  tools.mdsd.ecoreworkflow.mwe2lib,
  org.eclipse.xtext.xtext.generator,
+ de.uka.ipd.sdq.identifier;bundle-version="4.2.0",
+ org.palladiosimulator.pcm;bundle-version="4.2.0",
+ org.palladiosimulator.dataflow.dictionary;bundle-version="0.1.0",
+ org.palladiosimulator.dataflow.dictionary.characterized;bundle-version="0.1.0",
+ org.palladiosimulator.indirections;bundle-version="4.3.0",
+ org.palladiosimulator.dataflow.dictionary.characterized.dsl;bundle-version="1.0.0",
  org.apache.log4j,
  org.eclipse.core.runtime,
  org.apache.commons.logging,
  de.uka.ipd.sdq.identifier,
- org.objectweb.asm
-Bundle-RequiredExecutionEnvironment: JavaSE-17
+ org.objectweb.asm,
+ org.palladiosimulator.pcm.editor;bundle-version="5.1.0",
+ org.palladiosimulator.pcm.stoex.ide;bundle-version="5.1.0",
+ de.uka.ipd.sdq.units.editor;bundle-version="5.1.0",
+ org.eclipse.uml2.codegen.ecore;bundle-version="2.5.2"

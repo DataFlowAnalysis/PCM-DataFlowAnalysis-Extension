@@ -106,5 +106,4 @@ Workflow {
 			src = "platform:/resource/org.palladiosimulator.dataflow.confidentiality.pcm.model.edit/src"
 		}
 	}
-
 }

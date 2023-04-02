@@ -4,19 +4,19 @@
     nsPrefix="nodecharacteristics">
   <eClassifiers xsi:type="ecore:EClass" name="UsageAsignee" eSuperTypes="#//AbstractAssignee">
     <eStructuralFeatures xsi:type="ecore:EReference" name="usagescenario" lowerBound="1"
-        eType="ecore:EClass platform:/plugin/org.palladiosimulator.pcm/model/pcm.ecore#//usagemodel/UsageScenario"/>
+        eType="ecore:EClass ../../org.palladiosimulator.pcm/model/pcm.ecore#//usagemodel/UsageScenario"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="RessourceAssignee" eSuperTypes="#//AbstractAssignee">
     <eStructuralFeatures xsi:type="ecore:EReference" name="resourcecontainer" lowerBound="1"
-        eType="ecore:EClass platform:/plugin/org.palladiosimulator.pcm/model/pcm.ecore#//resourceenvironment/ResourceContainer"/>
+        eType="ecore:EClass ../../org.palladiosimulator.pcm/model/pcm.ecore#//resourceenvironment/ResourceContainer"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="AssemblyAssignee" eSuperTypes="#//AbstractAssignee">
     <eStructuralFeatures xsi:type="ecore:EReference" name="assemblycontext" lowerBound="1"
-        eType="ecore:EClass platform:/plugin/org.palladiosimulator.pcm/model/pcm.ecore#//core/composition/AssemblyContext"/>
+        eType="ecore:EClass ../../org.palladiosimulator.pcm/model/pcm.ecore#//core/composition/AssemblyContext"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="AbstractAssignee" abstract="true">
     <eStructuralFeatures xsi:type="ecore:EReference" name="characteristics" upperBound="-1"
-        eType="ecore:EClass platform:/plugin/org.palladiosimulator.dataflow.confidentiality.pcm.model/model/dataFlowConfidentiality.ecore#//characteristics/EnumCharacteristic"
+        eType="ecore:EClass ../../org.palladiosimulator.dataflow.confidentiality.pcm.model/model/dataFlowConfidentiality.ecore#//characteristics/EnumCharacteristic"
         containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Assignments">
