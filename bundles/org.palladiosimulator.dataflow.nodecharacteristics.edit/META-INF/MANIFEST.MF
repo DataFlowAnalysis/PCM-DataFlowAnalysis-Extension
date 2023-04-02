@@ -3,25 +3,29 @@ Bundle-ManifestVersion: 2
 Bundle-Name: %pluginName
 Bundle-SymbolicName: org.palladiosimulator.dataflow.nodecharacteristics.edit;singleton:=true
 Automatic-Module-Name: org.palladiosimulator.dataflow.nodecharacteristics.edit
-Bundle-Version: 5.1.0.qualifier
+Bundle-Version: 1.0.0.qualifier
 Bundle-ClassPath: .
 Bundle-Activator: org.palladiosimulator.dataflow.nodecharacteristics.nodecharacteristics.provider.NodeCharacteristicsEditPlugin$Implementation
 Bundle-Vendor: %providerName
 Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Export-Package: org.palladiosimulator.dataflow.nodecharacteristics.nodecharacteristics.provider
 Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.emf.cdo.edit;visibility:=reexport,
  org.palladiosimulator.dataflow.nodecharacteristics;visibility:=reexport,
- org.palladiosimulator.dataflow.confidentiality.pcm.model;visibility:=reexport,
- org.palladiosimulator.dataflow.confidentiality.pcm.model.edit;visibility:=reexport,
  org.eclipse.emf.edit;visibility:=reexport,
  org.palladiosimulator.dataflow.dictionary;visibility:=reexport,
  org.palladiosimulator.dataflow.dictionary.edit;visibility:=reexport,
  org.palladiosimulator.dataflow.dictionary.characterized;visibility:=reexport,
  org.palladiosimulator.dataflow.dictionary.characterized.edit;visibility:=reexport,
+ org.palladiosimulator.dataflow.confidentiality.pcm.model;visibility:=reexport,
+ org.palladiosimulator.dataflow.confidentiality.pcm.model.edit;visibility:=reexport,
  org.eclipse.emf.ecore;visibility:=reexport,
  org.eclipse.emf.ecore.edit;visibility:=reexport,
  de.uka.ipd.sdq.identifier;visibility:=reexport,
  de.uka.ipd.sdq.identifier.edit;visibility:=reexport,
+ org.palladiosimulator.indirections;visibility:=reexport,
+ org.palladiosimulator.indirections.edit;visibility:=reexport,
  org.palladiosimulator.pcm;visibility:=reexport,
  org.palladiosimulator.pcm.edit;visibility:=reexport,
  de.uka.ipd.sdq.probfunction;visibility:=reexport,
@@ -29,10 +33,5 @@ Require-Bundle: org.eclipse.core.runtime,
  de.uka.ipd.sdq.stoex;visibility:=reexport,
  de.uka.ipd.sdq.stoex.edit;visibility:=reexport,
  de.uka.ipd.sdq.units;visibility:=reexport,
- de.uka.ipd.sdq.units.edit;visibility:=reexport,
- org.palladiosimulator.indirections;visibility:=reexport,
- org.palladiosimulator.indirections.edit;bundle-version="1.0.0";visibility:=reexport,
- tools.mdsd.library.emfeditutils;bundle-version="0.1.0"
+ de.uka.ipd.sdq.units.edit;visibility:=reexport
 Bundle-ActivationPolicy: lazy
-Bundle-RequiredExecutionEnvironment: J2SE-1.5
-Export-Package: org.palladiosimulator.dataflow.nodecharacteristics.nodecharacteristics.provider

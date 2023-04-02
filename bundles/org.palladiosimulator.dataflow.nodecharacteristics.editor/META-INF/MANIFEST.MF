@@ -3,28 +3,27 @@ Bundle-ManifestVersion: 2
 Bundle-Name: %pluginName
 Bundle-SymbolicName: org.palladiosimulator.dataflow.nodecharacteristics.editor;singleton:=true
 Automatic-Module-Name: org.palladiosimulator.dataflow.nodecharacteristics.editor
-Bundle-Version: 5.1.0.qualifier
+Bundle-Version: 1.0.0.qualifier
 Bundle-ClassPath: .
 Bundle-Activator: org.palladiosimulator.dataflow.nodecharacteristics.nodecharacteristics.presentation.NodeCharacteristicsEditorPlugin$Implementation
 Bundle-Vendor: %providerName
 Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Export-Package: org.palladiosimulator.dataflow.nodecharacteristics.nodecharacteristics.presentation
 Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.core.resources;visibility:=reexport,
- org.palladiosimulator.dataflow.nodecharacteristics.edit;bundle-version="5.1.0";visibility:=reexport,
- org.palladiosimulator.dataflow.confidentiality.pcm.model.edit;bundle-version="5.1.0";visibility:=reexport,
+ org.palladiosimulator.dataflow.nodecharacteristics.edit;visibility:=reexport,
  org.eclipse.emf.ecore.xmi;visibility:=reexport,
  org.eclipse.emf.edit.ui;visibility:=reexport,
  org.eclipse.ui.ide;visibility:=reexport,
  org.palladiosimulator.dataflow.dictionary.edit;visibility:=reexport,
  org.palladiosimulator.dataflow.dictionary.characterized.edit;visibility:=reexport,
+ org.palladiosimulator.dataflow.confidentiality.pcm.model.edit;visibility:=reexport,
  org.eclipse.emf.ecore.edit;visibility:=reexport,
  de.uka.ipd.sdq.identifier.edit;visibility:=reexport,
+ org.palladiosimulator.indirections.edit;visibility:=reexport,
  org.palladiosimulator.pcm.edit;visibility:=reexport,
  de.uka.ipd.sdq.probfunction.edit;visibility:=reexport,
  de.uka.ipd.sdq.stoex.edit;visibility:=reexport,
- de.uka.ipd.sdq.units.edit;visibility:=reexport,
- org.palladiosimulator.indirections.edit;visibility:=reexport,
- org.apache.commons.io;bundle-version="2.6.0"
+ de.uka.ipd.sdq.units.edit;visibility:=reexport
 Bundle-ActivationPolicy: lazy
-Bundle-RequiredExecutionEnvironment: J2SE-1.5
-Export-Package: org.palladiosimulator.dataflow.nodecharacteristics.nodecharacteristics.presentation
