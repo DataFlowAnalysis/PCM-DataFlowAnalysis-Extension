@@ -8,6 +8,7 @@ jobs:
     with:
       use-display-output: true
       no-caching: true
+      skip-branch-deploy: false
       runner-label: self-hosted
       deploy-updatesite: 'releng/org.palladiosimulator.dataflow.metamodel.updatesite/target/repository'
     secrets:
