@@ -36,4 +36,8 @@
          id="org.palladiosimulator.dataflow.confidentiality.pcm.ui.feature"
          version="0.0.0"/>
 
+   <includes
+     id="org.palladiosimulator.dataflow.confidentiality.pcm.nodecharacteristics.feature"
+     version="0.0.0"/>
+
 </feature>
