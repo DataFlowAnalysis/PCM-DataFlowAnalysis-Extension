@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: org.dataflowanalysis.pcm.extension.dddsl.ui.tests
+Bundle-ManifestVersion: 2
+Bundle-Name: org.dataflowanalysis.pcm.extension.dddsl.ui.tests
+Bundle-Vendor: My Company
+Bundle-Version: 5.1.0.qualifier
+Bundle-SymbolicName: org.dataflowanalysis.pcm.extension.dddsl.ui.tests; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.dataflowanalysis.pcm.extension.dddsl.ui,
+ org.dataflowanalysis.pcm.extension.model,
+ org.junit.jupiter.api;bundle-version="[5.1.0,6.0.0)",
+ org.eclipse.xtext.testing,
+ org.eclipse.xtext.xbase.testing,
+ org.eclipse.xtext.xbase.junit,
+ org.eclipse.core.runtime,
+ org.eclipse.xtext.ui.testing,
+ org.eclipse.ui.workbench;resolution:=optional,
+ tools.mdsd.junit5utils;bundle-version="0.1.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Export-Package: org.palladiosimulator.dataflow.confidentiality.pcm.dddsl.ui.tests;x-internal=true
