@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature id="org.dataflowanalysis.pcm.extension.feature">
+      <category name="org.dataflowanalysis.pcm.extension.category"/>
+   </feature>
+   <category-def name="org.dataflowanalysis.pcm.extension.category" label="Data Flow Analysis PCM Extension"/>
+</site>
