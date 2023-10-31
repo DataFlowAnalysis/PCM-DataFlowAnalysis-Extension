@@ -1,10 +1,10 @@
-package org.palladiosimulator.dataflow.dictionary.editor.sirius;
+package org.dataflowanalysis.pcm.extension.dictionary.editor.sirius;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.eclipse.emf.ecore.EObject;
-import org.palladiosimulator.dataflow.dictionary.DataDictionary.DataType;
+import org.dataflowanalysis.pcm.extension.dictionary.DataDictionary.DataType;
 
 
 

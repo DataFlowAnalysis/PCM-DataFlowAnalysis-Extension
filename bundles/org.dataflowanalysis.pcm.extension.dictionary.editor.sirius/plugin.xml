@@ -2,7 +2,7 @@
 <?eclipse version="3.0"?>
 <plugin>
   <extension point="org.eclipse.sirius.componentization">
-    <component class="org.palladiosimulator.dataflow.dictionary.editor.sirius.Activator"
+    <component class="org.dataflowanalysis.pcm.extension.dictionary.editor.sirius.Activator"
                id="org.palladiosimulator.dataflow.dictionary.editor.sirius"
 	       name="org.palladiosimulator.dataflow.dictionary.editor.sirius">
     </component>
