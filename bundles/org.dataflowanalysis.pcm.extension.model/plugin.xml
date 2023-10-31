@@ -10,7 +10,7 @@
       <!-- @generated dataFlowConfidentiality -->
       <package
             uri="http://palladiosimulator.org/dataflow/confidentiality/pcm/0.1.0"
-            class="org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.ConfidentialityPackage"
+            class="org.dataflowanalysis.pcm.extension.model.confidentiality.ConfidentialityPackage"
             genModel="model/dataFlowConfidentiality.genmodel"/>
    </extension>
 
@@ -18,7 +18,7 @@
       <!-- @generated dataFlowConfidentiality -->
       <package
             uri="http://palladiosimulator.org/dataflow/confidentiality/pcm/0.1.0/characteristics"
-            class="org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.characteristics.CharacteristicsPackage"
+            class="org.dataflowanalysis.pcm.extension.model.confidentiality.characteristics.CharacteristicsPackage"
             genModel="model/dataFlowConfidentiality.genmodel"/>
    </extension>
 
@@ -26,7 +26,7 @@
       <!-- @generated dataFlowConfidentiality -->
       <package
             uri="http://palladiosimulator.org/dataflow/confidentiality/pcm/0.1.0/expression"
-            class="org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.expression.ExpressionPackage"
+            class="org.dataflowanalysis.pcm.extension.model.confidentiality.expression.ExpressionPackage"
             genModel="model/dataFlowConfidentiality.genmodel"/>
    </extension>
 
@@ -34,7 +34,7 @@
       <!-- @generated dataFlowConfidentiality -->
       <package
             uri="http://palladiosimulator.org/dataflow/confidentiality/pcm/0.1.0/behaviour"
-            class="org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.behaviour.BehaviourPackage"
+            class="org.dataflowanalysis.pcm.extension.model.confidentiality.behaviour.BehaviourPackage"
             genModel="model/dataFlowConfidentiality.genmodel"/>
    </extension>
 
@@ -42,7 +42,7 @@
       <!-- @generated dataFlowConfidentiality -->
       <package
             uri="http://palladiosimulator.org/dataflow/confidentiality/pcm/0.1.0/repository"
-            class="org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.repository.RepositoryPackage"
+            class="org.dataflowanalysis.pcm.extension.model.confidentiality.repository.RepositoryPackage"
             genModel="model/dataFlowConfidentiality.genmodel"/>
    </extension>
 
@@ -50,8 +50,7 @@
       <!-- @generated dataFlowConfidentiality -->
       <package
             uri="http://palladiosimulator.org/dataflow/confidentiality/pcm/0.1.0/dictionary"
-            class="org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.dictionary.DictionaryPackage"
+            class="org.dataflowanalysis.pcm.extension.model.confidentiality.dictionary.DictionaryPackage"
             genModel="model/dataFlowConfidentiality.genmodel"/>
    </extension>
-
 </plugin>

@@ -16,7 +16,7 @@
   <foreignModel>DataDictionary.ecore</foreignModel>
   <modelPluginVariables>CDO=org.eclipse.emf.cdo</modelPluginVariables>
   <editPluginVariables>CDO_EDIT=org.eclipse.emf.cdo.edit</editPluginVariables>
-  <genPackages prefix="DataDictionary" basePackage="org.palladiosimulator.dataflow.dictionary"
+  <genPackages prefix="DataDictionary" basePackage="org.dataflowanalysis.pcm.extension.dictionary"
       disposableProviderFactory="true" extensibleProviderFactory="true" childCreationExtenders="true"
       ecorePackage="DataDictionary.ecore#/">
     <genClasses ecoreClass="DataDictionary.ecore#//DataDictionary">

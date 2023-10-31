@@ -9,8 +9,7 @@ Bundle-Activator: org.dataflowanalysis.pcm.extension.dictionary.DataDictionary.p
 Bundle-Vendor: %providerName
 Bundle-Localization: plugin
 Bundle-RequiredExecutionEnvironment: J2SE-1.5
-Export-Package: org.dataflowanalysis.pcm.extension.dictionary.DataDictionary.provider,
- org.palladiosimulator.dataflow.dictionary.DataDictionary.provider
+Export-Package: org.dataflowanalysis.pcm.extension.dictionary.DataDictionary.provider
 Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.emf.cdo.edit;visibility:=reexport,
  org.dataflowanalysis.pcm.extension.dictionary;visibility:=reexport,

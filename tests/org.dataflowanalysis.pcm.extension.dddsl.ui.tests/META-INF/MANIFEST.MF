@@ -15,6 +15,7 @@ Require-Bundle: org.dataflowanalysis.pcm.extension.dddsl.ui,
  org.eclipse.core.runtime,
  org.eclipse.xtext.ui.testing,
  org.eclipse.ui.workbench;resolution:=optional,
- tools.mdsd.junit5utils;bundle-version="0.1.0"
+ tools.mdsd.junit5utils;bundle-version="0.1.0",
+ org.eclipse.xtext.xbase.ui.testing
 Bundle-RequiredExecutionEnvironment: JavaSE-17
-Export-Package: org.palladiosimulator.dataflow.confidentiality.pcm.dddsl.ui.tests;x-internal=true
+Export-Package: org.dataflowanalysis.pcm.extension.dddsl.ui.tests;x-internal=true

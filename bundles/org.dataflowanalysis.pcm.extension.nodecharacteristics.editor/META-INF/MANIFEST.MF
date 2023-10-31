@@ -8,9 +8,8 @@ Bundle-ClassPath: .
 Bundle-Activator: org.dataflowanalysis.pcm.extension.nodecharacteristics.nodecharacteristics.presentation.NodeCharacteristicsEditorPlugin$Implementation
 Bundle-Vendor: %providerName
 Bundle-Localization: plugin
-Bundle-RequiredExecutionEnvironment: J2SE-1.5
-Export-Package: org.dataflowanalysis.pcm.extension.nodecharacteristics.nodecharacteristics.presentation,
- org.palladiosimulator.dataflow.nodecharacteristics.nodecharacteristics.presentation
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Export-Package: org.dataflowanalysis.pcm.extension.nodecharacteristics.nodecharacteristics.presentation
 Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.core.resources;visibility:=reexport,
  org.dataflowanalysis.pcm.extension.nodecharacteristics.edit;visibility:=reexport,
@@ -23,7 +22,7 @@ Require-Bundle: org.eclipse.core.runtime,
  org.palladiosimulator.pcm.edit;visibility:=reexport,
  de.uka.ipd.sdq.probfunction.edit;visibility:=reexport,
  de.uka.ipd.sdq.stoex.edit;visibility:=reexport,
- de.uka.ipd.sdq.units.edit;visibility:=reexport, 
+ de.uka.ipd.sdq.units.edit;visibility:=reexport,
  org.dataflowanalysis.pcm.extension.nodecharacteristics.edit;visibility:=reexport,
  org.eclipse.emf.ecore.xmi;visibility:=reexport,
  org.eclipse.emf.edit.ui;visibility:=reexport,

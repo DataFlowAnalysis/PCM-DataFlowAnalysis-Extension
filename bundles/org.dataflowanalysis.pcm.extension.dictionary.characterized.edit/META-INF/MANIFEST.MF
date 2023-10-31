@@ -9,9 +9,8 @@ Bundle-Activator: org.dataflowanalysis.pcm.extension.dictionary.characterized.Da
 Bundle-Vendor: %providerName
 Bundle-Localization: plugin
 Bundle-RequiredExecutionEnvironment: J2SE-1.5
-Export-Package: org.dataflowanalysis.pcm.extension.dictionary.characterized.DataDictionaryCharacterized.provider,
- org.palladiosimulator.dataflow.dictionary.characterized.DataDictionaryCharacterized.expressions.provider,
- org.palladiosimulator.dataflow.dictionary.characterized.DataDictionaryCharacterized.provider
+Export-Package: org.dataflowanalysis.pcm.extension.dictionary.characterized.DataDictionaryCharacterized.expressions.provider,
+ org.dataflowanalysis.pcm.extension.dictionary.characterized.DataDictionaryCharacterized.provider
 Require-Bundle: org.eclipse.core.runtime,
  org.dataflowanalysis.pcm.extension.dictionary.characterized;visibility:=reexport,
  org.eclipse.emf.edit;visibility:=reexport,

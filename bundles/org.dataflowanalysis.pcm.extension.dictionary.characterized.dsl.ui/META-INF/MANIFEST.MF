@@ -19,7 +19,7 @@ Require-Bundle: org.dataflowanalysis.pcm.extension.dictionary.characterized.dsl,
  org.eclipse.xtext.builder
 Import-Package: org.apache.log4j
 Bundle-RequiredExecutionEnvironment: JavaSE-17
-Export-Package: org.palladiosimulator.dataflow.dictionary.characterized.dsl.ui.contentassist,
- org.palladiosimulator.dataflow.dictionary.characterized.dsl.ui.internal,
- org.palladiosimulator.dataflow.dictionary.characterized.dsl.ui.quickfix
-Bundle-Activator: org.palladiosimulator.dataflow.dictionary.characterized.dsl.ui.internal.DslActivator
+Export-Package: org.dataflowanalysis.pcm.extension.dictionary.characterized.dsl.ui.internal,
+ org.dataflowanalysis.pcm.extension.dictionary.characterized.dsl.ui.quickfix,
+ org.dataflowanalysis.pcm.extension.dictionary.characterized.dsl.ui.contentassist
+Bundle-Activator: org.dataflowanalysis.pcm.extension.dictionary.characterized.dsl.ui.internal.DslActivator

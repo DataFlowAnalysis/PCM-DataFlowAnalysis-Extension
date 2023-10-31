@@ -13,5 +13,5 @@ Require-Bundle: org.dataflowanalysis.pcm.extension.dddsl,
  org.antlr.runtime;bundle-version="[3.2.0,3.2.1)",
  org.dataflowanalysis.pcm.extension.dictionary.characterized.dsl.ide;bundle-version="1.0.0"
 Bundle-RequiredExecutionEnvironment: JavaSE-17
-Export-Package: org.palladiosimulator.dataflow.confidentiality.pcm.dddsl.ide.contentassist.antlr.internal,
- org.palladiosimulator.dataflow.confidentiality.pcm.dddsl.ide.contentassist.antlr
+Export-Package: org.dataflowanalysis.pcm.extension.dddsl.ide.contentassist.antlr,
+ org.dataflowanalysis.pcm.extension.dddsl.ide.contentassist.antlr.internal

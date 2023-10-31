@@ -7,12 +7,12 @@ Bundle-Version: 1.0.0.qualifier
 Bundle-ClassPath: .
 Bundle-Vendor: %providerName
 Bundle-Localization: plugin
-Bundle-RequiredExecutionEnvironment: J2SE-1.5
-Export-Package: org.dataflowanalysis.pcm.extension.dictionary.characterized.DataDictionaryCharacterized.tests,
- org.palladiosimulator.dataflow.dictionary.characterized.DataDictionaryCharacterized.expressions.tests,
- org.palladiosimulator.dataflow.dictionary.characterized.DataDictionaryCharacterized.tests
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Export-Package: org.dataflowanalysis.pcm.extension.dictionary.characterized.DataDictionaryCharacterized.expressions.tests,
+ org.dataflowanalysis.pcm.extension.dictionary.characterized.DataDictionaryCharacterized.tests
 Require-Bundle: org.eclipse.core.runtime,
  org.dataflowanalysis.pcm.extension.dictionary.characterized;visibility:=reexport,
+ org.dataflowanalysis.pcm.extension.dictionary;visibility:=reexport,
  de.uka.ipd.sdq.identifier;visibility:=reexport,
  org.eclipse.emf.ecore.xmi;visibility:=reexport,
  org.junit;visibility:=reexport

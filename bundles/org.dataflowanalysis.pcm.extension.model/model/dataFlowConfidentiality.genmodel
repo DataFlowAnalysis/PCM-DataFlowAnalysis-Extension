@@ -10,19 +10,19 @@
     importerID="org.eclipse.emf.importer.cdo" featureDelegation="Reflective" complianceLevel="5.0"
     copyrightFields="false" providerRootExtendsClass="org.eclipse.emf.cdo.edit.CDOItemProviderAdapter"
     editPluginID="org.dataflowanalysis.pcm.extension.model.edit" editorPluginID="org.dataflowanalysis.pcm.extension.model.editor"
-    usedGenPackages="../../org.palladiosimulator.dataflow.dictionary/model/DataDictionary.genmodel#//DataDictionary ../../org.palladiosimulator.dataflow.dictionary.characterized/model/DataDictionaryCharacterized.genmodel#//DataDictionaryCharacterized ../../org.eclipse.emf.ecore/model/Ecore.genmodel#//ecore ../../de.uka.ipd.sdq.identifier/model/identifier.genmodel#//identifier ../../org.palladiosimulator.indirections/model/indirections.genmodel#//indirections ../../org.palladiosimulator.pcm/model/pcm.genmodel#//pcm ../../de.uka.ipd.sdq.probfunction/model/ProbabilityFunction.genmodel#//probfunction ../../de.uka.ipd.sdq.stoex/model/stoex.genmodel#//stoex ../../de.uka.ipd.sdq.units/model/Units.genmodel#//units"
+    usedGenPackages="../../org.dataflowanalysis.pcm.extension.dictionary/model/DataDictionary.genmodel#//DataDictionary ../../org.dataflowanalysis.pcm.extension.dictionary.characterized/model/DataDictionaryCharacterized.genmodel#//DataDictionaryCharacterized ../../org.eclipse.emf.ecore/model/Ecore.genmodel#//ecore ../../de.uka.ipd.sdq.identifier/model/identifier.genmodel#//identifier ../../org.palladiosimulator.indirections/model/indirections.genmodel#//indirections ../../org.palladiosimulator.pcm/model/pcm.genmodel#//pcm ../../de.uka.ipd.sdq.probfunction/model/ProbabilityFunction.genmodel#//probfunction ../../de.uka.ipd.sdq.stoex/model/stoex.genmodel#//stoex ../../de.uka.ipd.sdq.units/model/Units.genmodel#//units"
     importOrganizing="true">
   <foreignModel>dataFlowConfidentiality.ecore</foreignModel>
   <modelPluginVariables>CDO=org.eclipse.emf.cdo</modelPluginVariables>
   <editPluginVariables>CDO_EDIT=org.eclipse.emf.cdo.edit</editPluginVariables>
-  <genPackages prefix="Confidentiality" basePackage="org.palladiosimulator.dataflow.confidentiality.pcm.model"
+  <genPackages prefix="Confidentiality" basePackage="org.dataflowanalysis.pcm.extension.model"
       disposableProviderFactory="true" extensibleProviderFactory="true" childCreationExtenders="true"
       ecorePackage="dataFlowConfidentiality.ecore#/">
     <genClasses ecoreClass="dataFlowConfidentiality.ecore#//ConfidentialityVariableCharacterisation">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference dataFlowConfidentiality.ecore#//ConfidentialityVariableCharacterisation/lhs"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference dataFlowConfidentiality.ecore#//ConfidentialityVariableCharacterisation/rhs"/>
     </genClasses>
-    <nestedGenPackages prefix="Characteristics" basePackage="org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality"
+    <nestedGenPackages prefix="Characteristics" basePackage="org.dataflowanalysis.pcm.extension.model.confidentiality"
         disposableProviderFactory="true" extensibleProviderFactory="true" childCreationExtenders="true"
         ecorePackage="dataFlowConfidentiality.ecore#//characteristics">
       <genClasses ecoreClass="dataFlowConfidentiality.ecore#//characteristics/CharacteristicTypeDictionary">
@@ -47,7 +47,7 @@
         <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference dataFlowConfidentiality.ecore#//characteristics/Characteristics/characteristics"/>
       </genClasses>
     </nestedGenPackages>
-    <nestedGenPackages prefix="Expression" basePackage="org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality"
+    <nestedGenPackages prefix="Expression" basePackage="org.dataflowanalysis.pcm.extension.model.confidentiality"
         disposableProviderFactory="true" extensibleProviderFactory="true" childCreationExtenders="true"
         ecorePackage="dataFlowConfidentiality.ecore#//expression">
       <genClasses image="false" ecoreClass="dataFlowConfidentiality.ecore#//expression/AbstractNamedReferenceReference">
@@ -63,7 +63,7 @@
       <genClasses ecoreClass="dataFlowConfidentiality.ecore#//expression/LhsEnumCharacteristicReference"/>
       <genClasses ecoreClass="dataFlowConfidentiality.ecore#//expression/LhsDataTypeCharacteristicReference"/>
     </nestedGenPackages>
-    <nestedGenPackages prefix="Behaviour" basePackage="org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality"
+    <nestedGenPackages prefix="Behaviour" basePackage="org.dataflowanalysis.pcm.extension.model.confidentiality"
         disposableProviderFactory="true" ecorePackage="dataFlowConfidentiality.ecore#//behaviour">
       <genClasses ecoreClass="dataFlowConfidentiality.ecore#//behaviour/DataChannelBehaviour">
         <genFeatures notify="false" createChild="false" propertySortChoices="true"

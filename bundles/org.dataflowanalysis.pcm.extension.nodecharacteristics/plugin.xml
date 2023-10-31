@@ -10,7 +10,7 @@
       <!-- @generated nodeCharacteristics -->
       <package
             uri="http://www.example.org/nodeCharacteristics"
-            class="org.palladiosimulator.dataflow.nodecharacteristics.nodecharacteristics.NodeCharacteristicsPackage"
+            class="org.dataflowanalysis.pcm.extension.nodecharacteristics.nodecharacteristics.NodeCharacteristicsPackage"
             genModel="model/nodeCharacteristics.genmodel"/>
    </extension>
 
@@ -18,7 +18,6 @@
       <!-- @generated nodeCharacteristics -->
       <parser
             type="nodecharacteristics"
-            class="org.palladiosimulator.dataflow.nodecharacteristics.nodecharacteristics.util.NodeCharacteristicsResourceFactoryImpl"/>
+            class="org.dataflowanalysis.pcm.extension.nodecharacteristics.nodecharacteristics.util.NodeCharacteristicsResourceFactoryImpl"/>
    </extension>
-
 </plugin>

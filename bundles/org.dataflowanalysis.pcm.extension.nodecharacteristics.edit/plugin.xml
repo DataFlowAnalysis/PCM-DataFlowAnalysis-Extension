@@ -10,7 +10,7 @@
       <!-- @generated nodeCharacteristics -->
       <factory
             uri="http://www.example.org/nodeCharacteristics"
-            class="org.palladiosimulator.dataflow.nodecharacteristics.nodecharacteristics.provider.NodeCharacteristicsItemProviderAdapterFactory"
+            class="org.dataflowanalysis.pcm.extension.nodecharacteristics.nodecharacteristics.provider.NodeCharacteristicsItemProviderAdapterFactory"
             supportedTypes=
               "org.eclipse.emf.edit.provider.IEditingDomainItemProvider
                org.eclipse.emf.edit.provider.IStructuredItemContentProvider

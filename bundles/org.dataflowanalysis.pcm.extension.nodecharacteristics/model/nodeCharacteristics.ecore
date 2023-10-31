@@ -16,7 +16,7 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="AbstractAssignee" abstract="true">
     <eStructuralFeatures xsi:type="ecore:EReference" name="characteristics" upperBound="-1"
-        eType="ecore:EClass ../../org.palladiosimulator.dataflow.confidentiality.pcm.model/model/dataFlowConfidentiality.ecore#//characteristics/EnumCharacteristic"
+        eType="ecore:EClass ../../org.dataflowanalysis.pcm.extension.model/model/dataFlowConfidentiality.ecore#//characteristics/EnumCharacteristic"
         containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Assignments">

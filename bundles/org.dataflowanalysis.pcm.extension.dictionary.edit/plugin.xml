@@ -10,7 +10,7 @@
       <!-- @generated DataDictionary -->
       <factory
             uri="http://palladiosimulator.org/dataflow/dictionary/1.0"
-            class="org.palladiosimulator.dataflow.dictionary.DataDictionary.provider.DataDictionaryItemProviderAdapterFactory"
+            class="org.dataflowanalysis.pcm.extension.dictionary.DataDictionary.provider.DataDictionaryItemProviderAdapterFactory"
             supportedTypes=
               "org.eclipse.emf.edit.provider.IEditingDomainItemProvider
                org.eclipse.emf.edit.provider.IStructuredItemContentProvider

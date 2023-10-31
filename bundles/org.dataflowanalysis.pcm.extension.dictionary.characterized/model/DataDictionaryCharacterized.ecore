@@ -9,7 +9,7 @@
   <eClassifiers xsi:type="ecore:EClass" name="Entity" abstract="true" eSuperTypes="platform:/plugin/de.uka.ipd.sdq.identifier/model/identifier.ecore#//Identifier">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="DataDictionaryCharacterized" eSuperTypes="../../org.palladiosimulator.dataflow.dictionary/model/DataDictionary.ecore#//DataDictionary">
+  <eClassifiers xsi:type="ecore:EClass" name="DataDictionaryCharacterized" eSuperTypes="../../org.dataflowanalysis.pcm.extension.dictionary/model/DataDictionary.ecore#//DataDictionary">
     <eStructuralFeatures xsi:type="ecore:EReference" name="characteristicTypes" upperBound="-1"
         eType="#//CharacteristicType" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="enumerations" upperBound="-1"
