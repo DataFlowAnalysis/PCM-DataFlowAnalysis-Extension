@@ -8,12 +8,12 @@ Bundle-ClassPath: .
 Bundle-Vendor: %providerName
 Bundle-Localization: plugin
 Bundle-RequiredExecutionEnvironment: J2SE-1.5
-Export-Package: org.palladiosimulator.dataflow.dictionary.characterized.DataDictionaryCharacterized,
- org.dictionary.characterized.DataDictionaryCharacterized.expressions,
- org.palladiosimulator.dataflow.dictionary.characterized.DataDictionaryCharacterized.expressions.impl,
- org.palladiosimulator.dataflow.dictionary.characterized.DataDictionaryCharacterized.expressions.util,
- org.palladiosimulator.dataflow.dictionary.characterized.DataDictionaryCharacterized.impl,
- org.palladiosimulator.dataflow.dictionary.characterized.DataDictionaryCharacterized.util
+Export-Package: org.dataflowanalysis.pcm.extension.dictionary.characterized.DataDictionaryCharacterized,
+ org.dataflowanalysis.pcm.extension.dictionary.characterized.DataDictionaryCharacterized.expressions,
+ org.dataflowanalysis.pcm.extension.dictionary.characterized.DataDictionaryCharacterized.expressions.impl,
+ org.dataflowanalysis.pcm.extension.dictionary.characterized.DataDictionaryCharacterized.expressions.util,
+ org.dataflowanalysis.pcm.extension.dictionary.characterized.DataDictionaryCharacterized.impl,
+ org.dataflowanalysis.pcm.extension.dictionary.characterized.DataDictionaryCharacterized.util
 Require-Bundle: org.eclipse.emf.ecore;visibility:=reexport,
  org.eclipse.emf.cdo;visibility:=reexport,
  org.dataflowanalysis.pcm.extension.dictionary;visibility:=reexport,

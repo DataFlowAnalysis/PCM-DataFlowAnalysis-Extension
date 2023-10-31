@@ -12,7 +12,7 @@
       <!-- @generated DataDictionary -->
       <package
             uri="http://palladiosimulator.org/dataflow/dictionary/1.0"
-            class="org.palladiosimulator.dataflow.dictionary.DataDictionary.DataDictionaryPackage"
+            class="org.dataflowanalysis.pcm.extension.dictionary.DataDictionary.DataDictionaryPackage"
             genModel="model/DataDictionary.genmodel"/>
    </extension>
 

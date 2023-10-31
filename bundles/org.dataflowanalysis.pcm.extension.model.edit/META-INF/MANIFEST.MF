@@ -32,11 +32,10 @@ Require-Bundle: org.eclipse.core.runtime,
  org.palladiosimulator.indirections.edit;bundle-version="1.0.0";visibility:=reexport,
  tools.mdsd.library.emfeditutils;bundle-version="0.1.0"
 Bundle-ActivationPolicy: lazy
-Bundle-RequiredExecutionEnvironment: J2SE-1.5
-Export-Package: org.dataflowanalysis.pcm.extension.model.confidentiality.provider,
- org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.behaviour.provider,
- org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.characteristics.provider,
- org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.dictionary.provider,
- org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.expression.provider,
- org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.provider,
- org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.repository.provider
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Export-Package: org.dataflowanalysis.pcm.extension.model.confidentiality.behaviour.provider,
+ org.dataflowanalysis.pcm.extension.model.confidentiality.characteristics.provider,
+ org.dataflowanalysis.pcm.extension.model.confidentiality.dictionary.provider,
+ org.dataflowanalysis.pcm.extension.model.confidentiality.expression.provider,
+ org.dataflowanalysis.pcm.extension.model.confidentiality.provider,
+ org.dataflowanalysis.pcm.extension.model.confidentiality.repository.provider

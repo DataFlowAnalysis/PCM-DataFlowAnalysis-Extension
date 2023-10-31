@@ -20,7 +20,7 @@ Require-Bundle: org.dataflowanalysis.pcm.extension.dddsl,
  org.dataflowanalysis.pcm.extension.dictionary.characterized.dsl.ui
 Import-Package: org.apache.log4j
 Bundle-RequiredExecutionEnvironment: JavaSE-17
-Export-Package: org.palladiosimulator.dataflow.confidentiality.pcm.dddsl.ui.internal,
- org.palladiosimulator.dataflow.confidentiality.pcm.dddsl.ui.quickfix,
- org.palladiosimulator.dataflow.confidentiality.pcm.dddsl.ui.contentassist
-Bundle-Activator: org.palladiosimulator.dataflow.confidentiality.pcm.dddsl.ui.internal.DddslActivator
+Export-Package: org.dataflowanalysis.pcm.extension.dddsl.ui.quickfix,
+ org.dataflowanalysis.pcm.extension.dddsl.ui.internal,
+ org.dataflowanalysis.pcm.extension.dddsl.ui.contentassist
+Bundle-Activator: org.dataflowanalysis.pcm.extension.dddsl.ui.internal.DddslActivator

@@ -8,6 +8,7 @@ import java.util.Collection;
 import java.util.HashSet;
 import java.util.stream.Collectors;
 
+import org.dataflowanalysis.pcm.extension.model.confidentiality.characteristics.provider.EnumCharacteristicItemProvider;
 import org.eclipse.emf.edit.provider.IItemPropertyDescriptor;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;

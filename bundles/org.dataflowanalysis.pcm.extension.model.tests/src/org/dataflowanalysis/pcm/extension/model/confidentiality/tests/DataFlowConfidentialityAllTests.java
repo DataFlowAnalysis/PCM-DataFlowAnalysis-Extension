@@ -6,16 +6,10 @@ import junit.framework.Test;
 import junit.framework.TestSuite;
 
 import junit.textui.TestRunner;
-
-import org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.behaviour.tests.BehaviourTests;
-
-import org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.characteristics.tests.CharacteristicsTests;
-
-import org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.expression.tests.ExpressionTests;
-
-import org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.repository.tests.RepositoryTests;
-
-import org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.tests.ConfidentialityTests;
+import org.dataflowanalysis.pcm.extension.model.confidentiality.behaviour.tests.BehaviourTests;
+import org.dataflowanalysis.pcm.extension.model.confidentiality.characteristics.tests.CharacteristicsTests;
+import org.dataflowanalysis.pcm.extension.model.confidentiality.expression.tests.ExpressionTests;
+import org.dataflowanalysis.pcm.extension.model.confidentiality.repository.tests.RepositoryTests;
 
 /**
  * <!-- begin-user-doc -->

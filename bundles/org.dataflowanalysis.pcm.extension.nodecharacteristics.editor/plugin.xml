@@ -12,9 +12,9 @@
             id="org.eclipse.emf.ecore.Wizard.category.ID"
             name="%_UI_Wizard_category"/>
       <wizard
-            id="org.palladiosimulator.dataflow.nodecharacteristics.nodecharacteristics.presentation.NodeCharacteristicsModelWizardID"
+            id="org.dataflowanalysis.pcm.extension.nodecharacteristics.nodecharacteristics.presentation.NodeCharacteristicsModelWizardID"
             name="%_UI_NodeCharacteristicsModelWizard_label"
-            class="org.palladiosimulator.dataflow.nodecharacteristics.nodecharacteristics.presentation.NodeCharacteristicsModelWizard"
+            class="org.dataflowanalysis.pcm.extension.nodecharacteristics.nodecharacteristics.presentation.NodeCharacteristicsModelWizard"
             category="org.eclipse.emf.ecore.Wizard.category.ID"
             icon="icons/full/obj16/NodeCharacteristicsModelFile.gif">
          <description>%_UI_NodeCharacteristicsModelWizard_description</description>
@@ -25,13 +25,12 @@
    <extension point="org.eclipse.ui.editors">
       <!-- @generated nodeCharacteristics -->
       <editor
-            id="org.palladiosimulator.dataflow.nodecharacteristics.nodecharacteristics.presentation.NodeCharacteristicsEditorID"
+            id="org.dataflowanalysis.pcm.extension.nodecharacteristics.nodecharacteristics.presentation.NodeCharacteristicsEditorID"
             name="%_UI_NodeCharacteristicsEditor_label"
             icon="icons/full/obj16/NodeCharacteristicsModelFile.gif"
             extensions="nodecharacteristics"
-            class="org.palladiosimulator.dataflow.nodecharacteristics.nodecharacteristics.presentation.NodeCharacteristicsEditor"
-            contributorClass="org.palladiosimulator.dataflow.nodecharacteristics.nodecharacteristics.presentation.NodeCharacteristicsActionBarContributor">
+            class="org.dataflowanalysis.pcm.extension.nodecharacteristics.nodecharacteristics.presentation.NodeCharacteristicsEditor"
+            contributorClass="org.dataflowanalysis.pcm.extension.nodecharacteristics.nodecharacteristics.presentation.NodeCharacteristicsActionBarContributor">
       </editor>
    </extension>
-
 </plugin>

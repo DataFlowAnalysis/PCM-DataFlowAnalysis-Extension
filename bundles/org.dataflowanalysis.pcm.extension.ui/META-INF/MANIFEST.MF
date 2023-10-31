@@ -15,6 +15,6 @@ Require-Bundle: org.eclipse.ui;bundle-version="3.118.0",
  org.dataflowanalysis.pcm.extension.dictionary.characterized.dsl.ui,
  org.eclipse.emf.transaction;bundle-version="1.9.1",
  org.dataflowanalysis.pcm.extension.dictionary.characterized.dsl;bundle-version="5.1.0"
-Export-Package: org.palladiosimulator.dataflow.confidentiality.ui.wizard
+Export-Package: org.dataflowanalysis.pcm.extension.ui.wizard
 Bundle-ActivationPolicy: lazy
-Bundle-Activator: org.palladiosimulator.dataflow.confidentiality.ui.Activator
+Bundle-Activator: org.dataflowanalysis.pcm.extension.ui.Activator

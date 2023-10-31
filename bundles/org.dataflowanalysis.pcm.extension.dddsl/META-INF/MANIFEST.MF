@@ -15,13 +15,13 @@ Require-Bundle: org.dataflowanalysis.pcm.extension.model;visibility:=reexport,
  org.antlr.runtime;bundle-version="[3.2.0,3.2.1)",
  org.dataflowanalysis.pcm.extension.dictionary.characterized.dsl;bundle-version="1.0.0";visibility:=reexport
 Bundle-RequiredExecutionEnvironment: JavaSE-17
-Export-Package: org.palladiosimulator.dataflow.confidentiality.pcm.dddsl.serializer,
- org.palladiosimulator.dataflow.confidentiality.pcm.dddsl.generator,
- org.palladiosimulator.dataflow.confidentiality.pcm.dddsl.services,
- org.palladiosimulator.dataflow.confidentiality.pcm.dddsl.scoping,
- org.palladiosimulator.dataflow.confidentiality.pcm.dddsl,
- org.palladiosimulator.dataflow.confidentiality.pcm.dddsl.validation,
- org.palladiosimulator.dataflow.confidentiality.pcm.dddsl.formatting2,
- org.palladiosimulator.dataflow.confidentiality.pcm.dddsl.parser.antlr,
- org.palladiosimulator.dataflow.confidentiality.pcm.dddsl.parser.antlr.internal
+Export-Package: org.dataflowanalysis.pcm.extension.dddsl,
+ org.dataflowanalysis.pcm.extension.dddsl.formatting2,
+ org.dataflowanalysis.pcm.extension.dddsl.generator,
+ org.dataflowanalysis.pcm.extension.dddsl.parser.antlr,
+ org.dataflowanalysis.pcm.extension.dddsl.parser.antlr.internal,
+ org.dataflowanalysis.pcm.extension.dddsl.scoping,
+ org.dataflowanalysis.pcm.extension.dddsl.serializer,
+ org.dataflowanalysis.pcm.extension.dddsl.services,
+ org.dataflowanalysis.pcm.extension.dddsl.validation
 Import-Package: org.apache.log4j

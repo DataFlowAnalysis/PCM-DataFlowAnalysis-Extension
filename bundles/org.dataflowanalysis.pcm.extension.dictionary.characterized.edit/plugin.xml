@@ -10,7 +10,7 @@
       <!-- @generated DataDictionaryCharacterized -->
       <factory
             uri="http://palladiosimulator.org/dataflow/dictionary/characterized/1.0"
-            class="org.palladiosimulator.dataflow.dictionary.characterized.DataDictionaryCharacterized.provider.DataDictionaryCharacterizedItemProviderAdapterFactory"
+            class="org.dataflowanalysis.pcm.extension.dictionary.characterized.DataDictionaryCharacterized.provider.DataDictionaryCharacterizedItemProviderAdapterFactory"
             supportedTypes=
               "org.eclipse.emf.edit.provider.IEditingDomainItemProvider
                org.eclipse.emf.edit.provider.IStructuredItemContentProvider
@@ -23,7 +23,7 @@
       <!-- @generated DataDictionaryCharacterized -->
       <factory
             uri="http://palladiosimulator.org/dataflow/dictionary/characterized/expressions/1.0"
-            class="org.palladiosimulator.dataflow.dictionary.characterized.DataDictionaryCharacterized.expressions.provider.ExpressionsItemProviderAdapterFactory"
+            class="org.dataflowanalysis.pcm.extension.dictionary.characterized.DataDictionaryCharacterized.expressions.provider.ExpressionsItemProviderAdapterFactory"
             supportedTypes=
               "org.eclipse.emf.edit.provider.IEditingDomainItemProvider
                org.eclipse.emf.edit.provider.IStructuredItemContentProvider
@@ -31,5 +31,4 @@
                org.eclipse.emf.edit.provider.IItemLabelProvider
                org.eclipse.emf.edit.provider.IItemPropertySource"/>
    </extension>
-
 </plugin>

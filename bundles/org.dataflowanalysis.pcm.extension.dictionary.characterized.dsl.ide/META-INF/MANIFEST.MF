@@ -12,5 +12,5 @@ Require-Bundle: org.dataflowanalysis.pcm.extension.dictionary.characterized.dsl,
  org.eclipse.xtext.xbase.ide,
  org.antlr.runtime;bundle-version="[3.2.0,3.2.1)"
 Bundle-RequiredExecutionEnvironment: JavaSE-17
-Export-Package: org.palladiosimulator.dataflow.dictionary.characterized.dsl.ide.contentassist.antlr.internal,
- org.palladiosimulator.dataflow.dictionary.characterized.dsl.ide.contentassist.antlr
+Export-Package: org.dataflowanalysis.pcm.extension.dictionary.characterized.dsl.ide.contentassist.antlr.internal,
+ org.dataflowanalysis.pcm.extension.dictionary.characterized.dsl.ide.contentassist.antlr

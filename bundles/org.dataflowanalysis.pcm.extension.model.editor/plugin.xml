@@ -12,9 +12,9 @@
             id="org.eclipse.emf.ecore.Wizard.category.ID"
             name="%_UI_Wizard_category"/>
       <wizard
-            id="org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.presentation.ConfidentialityModelWizardID"
+            id="org.dataflowanalysis.pcm.extension.model.confidentiality.presentation.ConfidentialityModelWizardID"
             name="%_UI_ConfidentialityModelWizard_label"
-            class="org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.presentation.ConfidentialityModelWizard"
+            class="org.dataflowanalysis.pcm.extension.model.confidentiality.presentation.ConfidentialityModelWizard"
             category="org.eclipse.emf.ecore.Wizard.category.ID"
             icon="icons/full/obj16/ConfidentialityModelFile.gif">
          <description>%_UI_ConfidentialityModelWizard_description</description>
@@ -25,12 +25,12 @@
    <extension point="org.eclipse.ui.editors">
       <!-- @generated dataFlowConfidentiality -->
       <editor
-            id="org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.presentation.ConfidentialityEditorID"
+            id="org.dataflowanalysis.pcm.extension.model.confidentiality.presentation.ConfidentialityEditorID"
             name="%_UI_ConfidentialityEditor_label"
             icon="icons/full/obj16/ConfidentialityModelFile.gif"
             extensions="confidentiality"
-            class="org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.presentation.ConfidentialityEditor"
-            contributorClass="org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.presentation.ConfidentialityActionBarContributor">
+            class="org.dataflowanalysis.pcm.extension.model.confidentiality.presentation.ConfidentialityEditor"
+            contributorClass="org.dataflowanalysis.pcm.extension.model.confidentiality.presentation.ConfidentialityActionBarContributor">
       </editor>
    </extension>
 
@@ -40,9 +40,9 @@
             id="org.eclipse.emf.ecore.Wizard.category.ID"
             name="%_UI_Wizard_category"/>
       <wizard
-            id="org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.characteristics.presentation.CharacteristicsModelWizardID"
+            id="org.dataflowanalysis.pcm.extension.model.confidentiality.characteristics.presentation.CharacteristicsModelWizardID"
             name="%_UI_CharacteristicsModelWizard_label"
-            class="org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.characteristics.presentation.CharacteristicsModelWizard"
+            class="org.dataflowanalysis.pcm.extension.model.confidentiality.characteristics.presentation.CharacteristicsModelWizard"
             category="org.eclipse.emf.ecore.Wizard.category.ID"
             icon="icons/full/obj16/CharacteristicsModelFile.gif">
          <description>%_UI_CharacteristicsModelWizard_description</description>
@@ -53,12 +53,12 @@
    <extension point="org.eclipse.ui.editors">
       <!-- @generated dataFlowConfidentiality -->
       <editor
-            id="org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.characteristics.presentation.CharacteristicsEditorID"
+            id="org.dataflowanalysis.pcm.extension.model.confidentiality.characteristics.presentation.CharacteristicsEditorID"
             name="%_UI_CharacteristicsEditor_label"
             icon="icons/full/obj16/CharacteristicsModelFile.gif"
             extensions="characteristics"
-            class="org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.characteristics.presentation.CharacteristicsEditor"
-            contributorClass="org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.characteristics.presentation.CharacteristicsActionBarContributor">
+            class="org.dataflowanalysis.pcm.extension.model.confidentiality.characteristics.presentation.CharacteristicsEditor"
+            contributorClass="org.dataflowanalysis.pcm.extension.model.confidentiality.characteristics.presentation.CharacteristicsActionBarContributor">
       </editor>
    </extension>
 
@@ -68,9 +68,9 @@
             id="org.eclipse.emf.ecore.Wizard.category.ID"
             name="%_UI_Wizard_category"/>
       <wizard
-            id="org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.expression.presentation.ExpressionModelWizardID"
+            id="org.dataflowanalysis.pcm.extension.model.confidentiality.expression.presentation.ExpressionModelWizardID"
             name="%_UI_ExpressionModelWizard_label"
-            class="org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.expression.presentation.ExpressionModelWizard"
+            class="org.dataflowanalysis.pcm.extension.model.confidentiality.expression.presentation.ExpressionModelWizard"
             category="org.eclipse.emf.ecore.Wizard.category.ID"
             icon="icons/full/obj16/ExpressionModelFile.gif">
          <description>%_UI_ExpressionModelWizard_description</description>
@@ -81,12 +81,12 @@
    <extension point="org.eclipse.ui.editors">
       <!-- @generated dataFlowConfidentiality -->
       <editor
-            id="org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.expression.presentation.ExpressionEditorID"
+            id="org.dataflowanalysis.pcm.extension.model.confidentiality.expression.presentation.ExpressionEditorID"
             name="%_UI_ExpressionEditor_label"
             icon="icons/full/obj16/ExpressionModelFile.gif"
             extensions="expression"
-            class="org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.expression.presentation.ExpressionEditor"
-            contributorClass="org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.expression.presentation.ExpressionActionBarContributor">
+            class="org.dataflowanalysis.pcm.extension.model.confidentiality.expression.presentation.ExpressionEditor"
+            contributorClass="org.dataflowanalysis.pcm.extension.model.confidentiality.expression.presentation.ExpressionActionBarContributor">
       </editor>
    </extension>
 
@@ -96,9 +96,9 @@
             id="org.eclipse.emf.ecore.Wizard.category.ID"
             name="%_UI_Wizard_category"/>
       <wizard
-            id="org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.behaviour.presentation.BehaviourModelWizardID"
+            id="org.dataflowanalysis.pcm.extension.model.confidentiality.behaviour.presentation.BehaviourModelWizardID"
             name="%_UI_BehaviourModelWizard_label"
-            class="org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.behaviour.presentation.BehaviourModelWizard"
+            class="org.dataflowanalysis.pcm.extension.model.confidentiality.behaviour.presentation.BehaviourModelWizard"
             category="org.eclipse.emf.ecore.Wizard.category.ID"
             icon="icons/full/obj16/BehaviourModelFile.gif">
          <description>%_UI_BehaviourModelWizard_description</description>
@@ -109,12 +109,12 @@
    <extension point="org.eclipse.ui.editors">
       <!-- @generated dataFlowConfidentiality -->
       <editor
-            id="org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.behaviour.presentation.BehaviourEditorID"
+            id="org.dataflowanalysis.pcm.extension.model.confidentiality.behaviour.presentation.BehaviourEditorID"
             name="%_UI_BehaviourEditor_label"
             icon="icons/full/obj16/BehaviourModelFile.gif"
             extensions="behaviour"
-            class="org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.behaviour.presentation.BehaviourEditor"
-            contributorClass="org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.behaviour.presentation.BehaviourActionBarContributor">
+            class="org.dataflowanalysis.pcm.extension.model.confidentiality.behaviour.presentation.BehaviourEditor"
+            contributorClass="org.dataflowanalysis.pcm.extension.model.confidentiality.behaviour.presentation.BehaviourActionBarContributor">
       </editor>
    </extension>
 
@@ -124,9 +124,9 @@
             id="org.eclipse.emf.ecore.Wizard.category.ID"
             name="%_UI_Wizard_category"/>
       <wizard
-            id="org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.repository.presentation.RepositoryModelWizardID"
+            id="org.dataflowanalysis.pcm.extension.model.confidentiality.repository.presentation.RepositoryModelWizardID"
             name="%_UI_RepositoryModelWizard_label"
-            class="org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.repository.presentation.RepositoryModelWizard"
+            class="org.dataflowanalysis.pcm.extension.model.confidentiality.repository.presentation.RepositoryModelWizard"
             category="org.eclipse.emf.ecore.Wizard.category.ID"
             icon="icons/full/obj16/RepositoryModelFile.gif">
          <description>%_UI_RepositoryModelWizard_description</description>
@@ -137,12 +137,12 @@
    <extension point="org.eclipse.ui.editors">
       <!-- @generated dataFlowConfidentiality -->
       <editor
-            id="org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.repository.presentation.RepositoryEditorID"
+            id="org.dataflowanalysis.pcm.extension.model.confidentiality.repository.presentation.RepositoryEditorID"
             name="%_UI_RepositoryEditor_label"
             icon="icons/full/obj16/RepositoryModelFile.gif"
             extensions="repository"
-            class="org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.repository.presentation.RepositoryEditor"
-            contributorClass="org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.repository.presentation.RepositoryActionBarContributor">
+            class="org.dataflowanalysis.pcm.extension.model.confidentiality.repository.presentation.RepositoryEditor"
+            contributorClass="org.dataflowanalysis.pcm.extension.model.confidentiality.repository.presentation.RepositoryActionBarContributor">
       </editor>
    </extension>
 
@@ -152,9 +152,9 @@
             id="org.eclipse.emf.ecore.Wizard.category.ID"
             name="%_UI_Wizard_category"/>
       <wizard
-            id="org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.dictionary.presentation.DictionaryModelWizardID"
+            id="org.dataflowanalysis.pcm.extension.model.confidentiality.dictionary.presentation.DictionaryModelWizardID"
             name="%_UI_DictionaryModelWizard_label"
-            class="org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.dictionary.presentation.DictionaryModelWizard"
+            class="org.dataflowanalysis.pcm.extension.model.confidentiality.dictionary.presentation.DictionaryModelWizard"
             category="org.eclipse.emf.ecore.Wizard.category.ID"
             icon="icons/full/obj16/DictionaryModelFile.gif">
          <description>%_UI_DictionaryModelWizard_description</description>
@@ -165,13 +165,12 @@
    <extension point="org.eclipse.ui.editors">
       <!-- @generated dataFlowConfidentiality -->
       <editor
-            id="org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.dictionary.presentation.DictionaryEditorID"
+            id="org.dataflowanalysis.pcm.extension.model.confidentiality.dictionary.presentation.DictionaryEditorID"
             name="%_UI_DictionaryEditor_label"
             icon="icons/full/obj16/DictionaryModelFile.gif"
             extensions="dictionary"
-            class="org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.dictionary.presentation.DictionaryEditor"
-            contributorClass="org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.dictionary.presentation.DictionaryActionBarContributor">
+            class="org.dataflowanalysis.pcm.extension.model.confidentiality.dictionary.presentation.DictionaryEditor"
+            contributorClass="org.dataflowanalysis.pcm.extension.model.confidentiality.dictionary.presentation.DictionaryActionBarContributor">
       </editor>
    </extension>
-
 </plugin>

@@ -3,6 +3,7 @@ package org.palladiosimulator.dataflow.confidentiality.pcm.ui;
 import java.io.IOException;
 import java.io.InputStream;
 
+import org.dataflowanalysis.pcm.extension.ui.wizard.AbstractCharacterizedDataDictionaryWizard;
 import org.eclipse.core.resources.IFile;
 import org.eclipse.core.resources.IProject;
 import org.eclipse.core.runtime.CoreException;
@@ -15,15 +16,14 @@ import org.eclipse.emf.ecore.resource.Resource;
 import org.eclipse.emf.ecore.resource.impl.ResourceSetImpl;
 import org.eclipse.xtext.serializer.ISerializer;
 import org.eclipse.xtext.util.StringInputStream;
-import org.palladiosimulator.dataflow.confidentiality.pcm.dddsl.ui.internal.DddslActivator;
-import org.palladiosimulator.dataflow.confidentiality.pcm.model.confidentiality.dictionary.DictionaryFactory;
-import org.palladiosimulator.dataflow.confidentiality.ui.wizard.AbstractCharacterizedDataDictionaryWizard;
+import org.dataflowanalysis.pcm.extension.dddsl.ui.internal.DddslActivator;
+import org.dataflowanalysis.pcm.extension.model.confidentiality.dictionary.DictionaryFactory;
 
 public class PCMCharacterizedDataDictionaryWizard extends AbstractCharacterizedDataDictionaryWizard {
 
     public PCMCharacterizedDataDictionaryWizard() {
         super(DddslActivator.getInstance()
-            .getInjector(DddslActivator.ORG_PALLADIOSIMULATOR_DATAFLOW_CONFIDENTIALITY_PCM_DDDSL_DDDSL));
+            .getInjector(DddslActivator.ORG_DATAFLOWANALYSIS_PCM_EXTENSION_DDDSL_DDDSL));
     }
 
     @Override
