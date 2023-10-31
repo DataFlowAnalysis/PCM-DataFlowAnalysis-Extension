@@ -1,4 +1,4 @@
-package org.palladiosimulator.dataflow.dictionary.editor.sirius;
+package org.dataflowanalysis.pcm.extension.dictionary.editor.sirius;
 
 import java.util.HashSet;
 import java.util.Set;
