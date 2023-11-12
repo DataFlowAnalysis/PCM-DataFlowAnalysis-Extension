@@ -4,7 +4,7 @@
    <extension
          point="org.eclipse.ui.newWizards">
       <category
-            id="org.palladiosimulator.dataflow.confidentiality.ui.wizard.category"
+            id="org.dataflowanalysis.pcm.extension.ui.wizard.category"
             name="DataFlow Confidentiality">
       </category>
    </extension>

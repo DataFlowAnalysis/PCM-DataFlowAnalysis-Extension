@@ -4,9 +4,9 @@
  <extension
          point="org.eclipse.eef.ide.ui.eefLifecycleManagerProvider">
       <descriptor
-            class="org.palladiosimulator.dataflow.ui.table.TableLifeCycleManagerProvider"
+            class="org.dataflowanalysis.pcm.extension.ui.table.TableLifeCycleManagerProvider"
             description="%tableLifeCycleManagerProvider.Description"
-            id="org.palladiosimulator.dataflow.ui.table"
+            id="org.dataflowanalysis.pcm.extension.ui.table"
             label="%tableLifeCycleManagerProvider.Label">
       </descriptor>
    </extension>

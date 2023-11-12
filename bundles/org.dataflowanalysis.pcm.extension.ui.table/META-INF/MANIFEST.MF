@@ -14,4 +14,4 @@ Require-Bundle: org.eclipse.eef.core,
  org.eclipse.emf.edit,
  org.eclipse.emf.edit.ui
 Import-Package: org.eclipse.core.runtime
-Export-Package: org.palladiosimulator.dataflow.ui.table
+Export-Package: org.dataflowanalysis.pcm.extension.ui.table
