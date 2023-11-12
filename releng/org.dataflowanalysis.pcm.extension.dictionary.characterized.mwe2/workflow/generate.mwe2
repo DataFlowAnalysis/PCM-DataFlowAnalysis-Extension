@@ -7,7 +7,7 @@ import tools.mdsd.ecoreworkflow.mwe2lib.bean.EclipseRCPSupportingStandaloneSetup
 import tools.mdsd.ecoreworkflow.mwe2lib.component.*
 
 var workspaceRoot = "../../"
-var dataDictionaryProjectName = "org.palladiosimulator.dataflow.dictionary.characterized"
+var dataDictionaryProjectName = "org.dataflowanalysis.pcm.extension.dictionary.characterized"
 
 Workflow {
 
@@ -31,8 +31,8 @@ Workflow {
 //		}
 		
 		uriMap = {
-			from = "platform:/plugin/org.palladiosimulator.dataflow.dictionary/model/DataDictionary.genmodel"
-			to = "platform:/resource/org.palladiosimulator.dataflow.dictionary/model/DataDictionary.genmodel"
+			from = "platform:/plugin/org.dataflowanalysis.pcm.extension.dictionary/model/DataDictionary.genmodel"
+			to = "platform:/resource/org.dataflowanalysis.pcm.extension.dictionary/model/DataDictionary.genmodel"
 		}
 		
 //		uriMap = {

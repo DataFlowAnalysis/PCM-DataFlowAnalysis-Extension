@@ -5,9 +5,9 @@
          point="org.eclipse.ui.newWizards">
       <wizard
             category="org.palladiosimulator.pcmbench.palladio_modeling_category"
-            class="org.palladiosimulator.dataflow.confidentiality.pcm.ui.PCMCharacterizedDataDictionaryWizard"
-            icon="platform:/plugin/org.palladiosimulator.dataflow.confidentiality.ui/icons/datadictionary.png"
-            id="org.palladiosimulator.dataflow.confidentiality.pcm.ui.new.ddc"
+            class="org.dataflowanalysis.pcm.extension.pcm.ui.PCMCharacterizedDataDictionaryWizard"
+            icon="platform:/plugin/org.dataflowanalysis.pcm.extension.ui/icons/datadictionary.png"
+            id="org.dataflowanalysis.pcm.extension.ui.new.ddc"
             name="Data Dictionary"
             project="false">
       </wizard>
@@ -18,8 +18,8 @@
             allPopups="false"
             locationURI="toolbar:org.palladiosimulator.editors.sirius.ui.PCMToolbar?after=Usage">
          <command
-               commandId="org.palladiosimulator.dataflow.confidentiality.pcm.ui.command.new.ddc"
-               icon="platform:/plugin/org.palladiosimulator.dataflow.confidentiality.ui/icons/datadictionary.png"
+               commandId="org.dataflowanalysis.pcm.extension.ui.command.new.ddc"
+               icon="platform:/plugin/org.dataflowanalysis.pcm.extension.ui/icons/datadictionary.png"
                id="pcmddc"
                label="Create a new Data Dictionary from scratch"
                style="push">
@@ -29,8 +29,8 @@
    <extension
          point="org.eclipse.ui.commands">
       <command
-            defaultHandler="org.palladiosimulator.dataflow.confidentiality.pcm.ui.PCMCreateNewDDCCommand"
-            id="org.palladiosimulator.dataflow.confidentiality.pcm.ui.command.new.ddc"
+            defaultHandler="org.dataflowanalysis.pcm.extension.pcm.ui.PCMCreateNewDDCCommand"
+            id="org.dataflowanalysis.pcm.extension.ui.command.new.ddc"
             name="New Data Dictionary">
       </command>
    </extension>
