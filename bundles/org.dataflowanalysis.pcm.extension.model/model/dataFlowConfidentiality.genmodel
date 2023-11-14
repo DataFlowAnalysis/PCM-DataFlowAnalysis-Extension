@@ -6,7 +6,7 @@
     editPluginClass="org.dataflowanalysis.pcm.extension.model.confidentiality.provider.DataFlowConfidentialityEditPlugin"
     editorPluginClass="org.dataflowanalysis.pcm.extension.model.confidentiality.presentation.DataFlowConfidentialityEditorPlugin"
     rootExtendsInterface="org.eclipse.emf.cdo.CDOObject" rootExtendsClass="org.eclipse.emf.internal.cdo.CDOObjectImpl"
-    reflectiveDelegation="true" testSuiteClass="org.dataflowanalysis.pcm.extension.model.confidentiality.tests.DataFlowConfidentialityAllTests"
+    reflectiveDelegation="true"
     importerID="org.eclipse.emf.importer.cdo" featureDelegation="Reflective" complianceLevel="5.0"
     copyrightFields="false" providerRootExtendsClass="org.eclipse.emf.cdo.edit.CDOItemProviderAdapter"
     editPluginID="org.dataflowanalysis.pcm.extension.model.edit" editorPluginID="org.dataflowanalysis.pcm.extension.model.editor"

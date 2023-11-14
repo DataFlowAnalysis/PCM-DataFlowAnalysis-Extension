@@ -7,7 +7,7 @@
     editPluginClass="org.dataflowanalysis.pcm.extension.nodecharacteristics.nodecharacteristics.provider.NodeCharacteristicsEditPlugin"
     editorPluginClass="org.dataflowanalysis.pcm.extension.nodecharacteristics.nodecharacteristics.presentation.NodeCharacteristicsEditorPlugin"
     rootExtendsInterface="org.eclipse.emf.cdo.CDOObject" rootExtendsClass="org.eclipse.emf.internal.cdo.CDOObjectImpl"
-    reflectiveDelegation="true" testSuiteClass="org.dataflowanalysis.pcm.extension.nodecharacteristics.tests.NodeCharacteristicsAllTests"
+    reflectiveDelegation="true"
     importerID="org.eclipse.emf.importer.cdo" featureDelegation="Reflective" complianceLevel="5.0"
     copyrightFields="false" providerRootExtendsClass="org.eclipse.emf.cdo.edit.CDOItemProviderAdapter"
     editPluginID="org.dataflowanalysis.pcm.extension.nodecharacteristics.edit" editorPluginID="org.dataflowanalysis.pcm.extension.nodecharacteristics.editor"
