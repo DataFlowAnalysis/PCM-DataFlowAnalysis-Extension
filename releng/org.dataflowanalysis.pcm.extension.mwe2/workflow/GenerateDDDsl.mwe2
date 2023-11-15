@@ -99,10 +99,6 @@ Workflow {
 			from = "platform:/plugin/org.dataflowanalysis.pcm.extension.dictionary.characterized/model/DataDictionaryCharacterized.genmodel"
 			to = "platform:/resource/org.dataflowanalysis.pcm.extension.dictionary.characterized/model/DataDictionaryCharacterized.genmodel"
 		}
-		uriMap = {
-			from = "platform:/plugin/org.palladiosimulator.indirections.genmodel"
-			to = "platform:/resource/org.palladiosimulator.indirections.genmodel"
-		}
 		
 		registerGeneratedEPackage = "de.uka.ipd.sdq.stoex.StoexPackage"
 		registerGeneratedEPackage = "org.eclipse.uml2.codegen.ecore.genmodel.GenModelPackage"
