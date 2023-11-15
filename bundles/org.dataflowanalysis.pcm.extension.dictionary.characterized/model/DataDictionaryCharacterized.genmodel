@@ -19,8 +19,8 @@
   <modelPluginVariables>CDO=org.eclipse.emf.cdo</modelPluginVariables>
   <editPluginVariables>CDO_EDIT=org.eclipse.emf.cdo.edit</editPluginVariables>
   <genPackages prefix="DataDictionaryCharacterized" basePackage="org.dataflowanalysis.pcm.extension.dictionary.characterized"
-      disposableProviderFactory="true" extensibleProviderFactory="true" childCreationExtenders="true"
-      ecorePackage="DataDictionaryCharacterized.ecore#/">
+      disposableProviderFactory="true" generateExampleClass="false" extensibleProviderFactory="true"
+      childCreationExtenders="true" ecorePackage="DataDictionaryCharacterized.ecore#/">
     <genClasses image="false" ecoreClass="DataDictionaryCharacterized.ecore#//Entity">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute DataDictionaryCharacterized.ecore#//Entity/name"/>
     </genClasses>
