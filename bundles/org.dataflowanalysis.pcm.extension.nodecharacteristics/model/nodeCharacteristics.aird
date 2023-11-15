@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
-  <viewpoint:DAnalysis uid="_KlRmgJV1Ee2BOay_INhShA" selectedViews="_KnOuUJV1Ee2BOay_INhShA" version="15.0.0.202209061200">
-    <semanticResources>nodeCharacteristics.ecore</semanticResources>
+  <viewpoint:DAnalysis uid="_KlRmgJV1Ee2BOay_INhShA" selectedViews="_KnOuUJV1Ee2BOay_INhShA" version="15.2.0.202303281325">
     <semanticResources>platform:/plugin/org.palladiosimulator.pcm/model/pcm.ecore</semanticResources>
     <semanticResources>platform:/plugin/org.eclipse.emf.ecore/model/Ecore.ecore</semanticResources>
     <semanticResources>platform:/plugin/de.uka.ipd.sdq.stoex/model/stoex.ecore</semanticResources>
@@ -10,11 +9,11 @@
     <semanticResources>platform:/plugin/de.uka.ipd.sdq.identifier/model/identifier.ecore</semanticResources>
     <semanticResources>platform:/plugin/org.palladiosimulator.dataflow.dictionary.characterized/model/DataDictionaryCharacterized.ecore</semanticResources>
     <semanticResources>platform:/plugin/org.palladiosimulator.dataflow.dictionary/model/DataDictionary.ecore</semanticResources>
-    <semanticResources>platform:/plugin/org.palladiosimulator.dataflow.confidentiality.pcm.model/model/dataFlowConfidentiality.ecore</semanticResources>
-    <semanticResources>platform:/plugin/org.palladiosimulator.indirections/model/indirections.ecore</semanticResources>
+    <semanticResources>platform:/resource/org.dataflowanalysis.pcm.extension.dictionary.characterized/model/DataDictionaryCharacterized.ecore</semanticResources>
+    <semanticResources>platform:/resource/org.dataflowanalysis.pcm.extension.dictionary/model/DataDictionary.ecore</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_KnOuUJV1Ee2BOay_INhShA">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_KnaUgJV1Ee2BOay_INhShA" name="nodeCharacteristics" repPath="#_KnX4QJV1Ee2BOay_INhShA" changeId="9a992d9d-de51-4337-a02f-81ae9094f06d">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_KnaUgJV1Ee2BOay_INhShA" name="nodeCharacteristics" repPath="#_KnX4QJV1Ee2BOay_INhShA" changeId="1700056507872">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
         <target xmi:type="ecore:EPackage" href="nodeCharacteristics.ecore#/"/>
       </ownedRepresentationDescriptors>
