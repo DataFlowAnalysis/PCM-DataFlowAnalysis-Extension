@@ -24,7 +24,6 @@ Require-Bundle: org.apache.commons.logging,
  org.antlr.generator,
  de.uka.ipd.sdq.identifier;bundle-version="4.2.0",
  org.palladiosimulator.pcm;bundle-version="4.2.0",
- org.palladiosimulator.indirections;bundle-version="4.3.0",
  org.dataflowanalysis.pcm.extension.dictionary;bundle-version="0.1.0",
  org.dataflowanalysis.pcm.extension.dictionary.characterized;bundle-version="0.1.0",
  org.dataflowanalysis.pcm.extension.dictionary.characterized.dsl;bundle-version="1.0.0"
