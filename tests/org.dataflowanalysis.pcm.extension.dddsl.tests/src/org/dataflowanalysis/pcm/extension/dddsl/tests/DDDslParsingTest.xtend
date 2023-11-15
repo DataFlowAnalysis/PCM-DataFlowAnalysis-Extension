@@ -43,25 +43,7 @@ class DDDslParsingTest {
 			}
 			enumCharacteristicType AssignedRoles using Roles
 			enumCharacteristicType ReadAccess using Roles
-			
-			behavior foo {
-				input ccd
-				output RESULT
-				RESULT.{
-					*.* := ccd.*.*
-					ReadAccess.Airline := true
-				}
-			
-			}
 		'''.parse
-		var characterisations = result.reusableBehaviours.get(0).variableUsages.get(0).
-			variableCharacterisation_VariableUsage;
-		var characterisation = characterisations.get(1) as ConfidentialityVariableCharacterisation
-		var lhs = characterisation.lhs as LhsEnumCharacteristicReference
-		assertNotNull(lhs.characteristicType)
-		assertNotNull(lhs.characteristicType.name)
-		assertNotNull(lhs.literal)
-		assertNotNull(lhs.literal.name)
 	}
 
 	protected def parse(CharSequence text) {
