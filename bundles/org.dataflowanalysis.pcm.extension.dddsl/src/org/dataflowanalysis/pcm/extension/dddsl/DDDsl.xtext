@@ -19,9 +19,7 @@ PCMDataDictionary returns pddc::PCMDataDictionary:
 	'dictionary' 'id' id=STRING (
 		characteristicEnumerations+=Enumeration |
 		characteristicTypes+=CharacteristicType |
-		characteristics+=PCMCharacteristic |
-		reusableBehaviours+=ReusableBehaviour
-		// add DataChannelBehaviours
+		characteristics+=PCMCharacteristic
 	)*;
 
 @Override 
