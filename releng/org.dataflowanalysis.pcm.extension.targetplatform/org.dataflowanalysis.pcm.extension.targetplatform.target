@@ -119,16 +119,6 @@
 			<unit id="org.palladiosimulator.mdsdprofiles.feature.feature.group" version="0.0.0"/>
 			<repository location="https://updatesite.palladio-simulator.com/palladio-supporting-mdsdprofiles/releases/latest/"/>
 		</location>
-		<location filter="nightly" includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="false" type="InstallableUnit">
-			<unit id="org.palladiosimulator.indirections.editor.tree.feature.feature.group" version="0.0.0"/>
-			<unit id="org.palladiosimulator.indirections.editor.sirius.feature.feature.group" version="0.0.0"/>
-			<repository location="https://updatesite.palladio-simulator.com/palladio-addons-indirections/nightly/"/>
-		</location>
-		<location filter="release" includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="false" type="InstallableUnit">
-			<unit id="org.palladiosimulator.indirections.editor.tree.feature.feature.group" version="0.0.0"/>
-			<unit id="org.palladiosimulator.indirections.editor.sirius.feature.feature.group" version="0.0.0"/>
-			<repository location="https://updatesite.palladio-simulator.com/palladio-addons-indirections/releases/latest/"/>
-		</location>
 
 		<!-- transitively required by Palladio editors -->
 		<location filter="nightly" includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="false" type="InstallableUnit">
