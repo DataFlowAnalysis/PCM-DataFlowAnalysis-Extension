@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+  <extension point="org.eclipse.sirius.componentization">
+    <component class="org.dataflowanalysis.pcm.extension.editor.sirius.Activator"
+               id="org.dataflowanalysis.pcm.extension.editor.sirius"
+	       name="sirius">
+    </component>
+  </extension>
+  <extension
+        point="org.eclipse.sirius.externalJavaAction">
+     <javaActions
+           actionClass="org.dataflowanalysis.pcm.extension.editor.sirius.CreateVariableCharacterisationsViaEditor"
+           id="PCM-Confidentiality-CreateVariableCharacterisationsViaEditor">
+     </javaActions>
+     <javaActions
+           actionClass="org.dataflowanalysis.pcm.extension.editor.sirius.LinkEnumCharacteristic"
+           id="PCM-Confidentiality-LinkEnumCharacteristic">
+     </javaActions>
+     <javaActions
+           actionClass="org.dataflowanalysis.pcm.extension.editor.sirius.UnlinkEnumCharacteristics"
+           id="PCM-Confidentiality-UnlinkEnumCharacteristic">
+     </javaActions>
+  </extension>
+</plugin>
