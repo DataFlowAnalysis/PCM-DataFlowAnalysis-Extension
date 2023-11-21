@@ -23,11 +23,9 @@ import org.dataflowanalysis.pcm.extension.model.confidentiality.characteristics.
 import org.dataflowanalysis.pcm.extension.model.confidentiality.characteristics.Characteristics;
 import org.dataflowanalysis.pcm.extension.model.confidentiality.characteristics.CharacteristicsFactory;
 import org.dataflowanalysis.pcm.extension.model.confidentiality.characteristics.EnumCharacteristic;
-import org.dataflowanalysis.pcm.extension.model.profile.ProfileConstants;
 import org.dataflowanalysis.pcm.extension.dictionary.characterized.DataDictionaryCharacterized.EnumCharacteristicType;
 import org.dataflowanalysis.pcm.extension.dictionary.characterized.DataDictionaryCharacterized.Enumeration;
 import org.dataflowanalysis.pcm.extension.dictionary.characterized.DataDictionaryCharacterized.Literal;
-import org.palladiosimulator.mdsdprofiles.api.StereotypeAPI;
 import org.palladiosimulator.pcm.parameter.ParameterFactory;
 
 import com.google.inject.Injector;
@@ -46,20 +44,6 @@ public class Services {
         }
         var characterisation = (ConfidentialityVariableCharacterisation) self;
         return serialize(characterisation);
-    }
-
-    public Collection<EnumCharacteristic> findAppliedEnumCharacteristics(EObject self) {
-        Collection<?> taggedValue = StereotypeAPI
-            .getTaggedValueSafe(self, ProfileConstants.characterisable.getValue(),
-                    ProfileConstants.characterisable.getStereotype())
-            .filter(Collection.class::isInstance)
-            .map(Collection.class::cast)
-            .orElse(Collections.emptyList());
-        Collection<EnumCharacteristic> enumCharacteristics = taggedValue.stream()
-            .filter(EnumCharacteristic.class::isInstance)
-            .map(EnumCharacteristic.class::cast)
-            .collect(Collectors.toList());
-        return enumCharacteristics;
     }
 
     public Collection<EnumCharacteristicType> findAllEnumCharacteristicTypes(EObject self) {

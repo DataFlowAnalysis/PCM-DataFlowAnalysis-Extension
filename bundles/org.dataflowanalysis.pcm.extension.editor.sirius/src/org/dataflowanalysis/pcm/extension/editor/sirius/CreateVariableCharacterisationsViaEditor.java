@@ -22,9 +22,6 @@ import org.eclipse.jface.window.Window;
 import org.eclipse.sirius.tools.api.ui.IExternalJavaAction;
 import org.eclipse.ui.PlatformUI;
 import org.dataflowanalysis.pcm.extension.model.confidentiality.ConfidentialityVariableCharacterisation;
-import org.palladiosimulator.indirections.actions.ConsumeDataAction;
-import org.palladiosimulator.indirections.actions.CreateDateAction;
-import org.palladiosimulator.indirections.actions.util.ActionsSwitch;
 import org.palladiosimulator.pcm.parameter.VariableUsage;
 import org.palladiosimulator.pcm.repository.OperationSignature;
 import org.palladiosimulator.pcm.repository.Parameter;
@@ -167,12 +164,6 @@ public class CreateVariableCharacterisationsViaEditor implements IExternalJavaAc
 
         // add variables exposed by previous actions
         var initialAction = findParentOfType(variableUsage, AbstractAction.class).get();
-        var predecessorIter = new AbstractActionPredecessorIterator(initialAction);
-        var variablesExtractor = new AbstractActionOutputVariablesSwitch();
-        while (predecessorIter.hasNext()) {
-            var action = predecessorIter.next();
-            inputs.addAll(variablesExtractor.doSwitch(action));
-        }
 
         // add result for output characterisations of ECAs
         var calledSignatureHasReturn = Optional.of(initialAction)
@@ -378,20 +369,6 @@ public class CreateVariableCharacterisationsViaEditor implements IExternalJavaAc
         }
     }
 
-    protected static class AbstractActionOutputVariablesSwitch extends ComposedSwitch<Collection<String>> {
-
-        public AbstractActionOutputVariablesSwitch() {
-            super(Arrays.asList(new AbstractActionOutputVariablesSwitchPCM(),
-                    new AbstractActionOutputVariablesSwitchIndirections()));
-        }
-
-        @Override
-        public Collection<String> defaultCase(EObject eObject) {
-            return Collections.emptyList();
-        }
-
-    }
-
     protected static class AbstractActionOutputVariablesSwitchPCM extends SeffSwitch<Collection<String>> {
 
         @Override
@@ -402,23 +379,6 @@ public class CreateVariableCharacterisationsViaEditor implements IExternalJavaAc
         @Override
         public Collection<String> caseSetVariableAction(SetVariableAction object) {
             return getNames(object.getLocalVariableUsages_SetVariableAction());
-        }
-
-    }
-
-    protected static class AbstractActionOutputVariablesSwitchIndirections extends ActionsSwitch<Collection<String>> {
-
-        @Override
-        public Collection<String> caseConsumeDataAction(ConsumeDataAction object) {
-            return Optional.ofNullable(object.getVariableReference())
-                .map(VariableReference::getReferenceName)
-                .map(Arrays::asList)
-                .orElse(Collections.emptyList());
-        }
-
-        @Override
-        public Collection<String> caseCreateDateAction(CreateDateAction object) {
-            return getNames(object.getVariableUsages());
         }
 
     }
