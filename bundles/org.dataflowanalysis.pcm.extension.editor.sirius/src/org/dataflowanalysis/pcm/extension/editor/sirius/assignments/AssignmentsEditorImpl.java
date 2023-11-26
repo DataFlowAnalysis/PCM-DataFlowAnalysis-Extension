@@ -113,6 +113,7 @@ public class AssignmentsEditorImpl extends TitleAreaDialog {
 
     @Override
     protected void okPressed() {
+        setResultVariables();
         super.okPressed();
     }
 
@@ -203,4 +204,17 @@ public class AssignmentsEditorImpl extends TitleAreaDialog {
             setErrorMessage(fullMessage);
         }
     }
+
+    protected void setResultVariables() {
+        var resultText = modelAccess.getSerializedModel();
+        try {
+            var dict = serializationHelper.parseDict(resultText, dictionaries);
+            result = Collections.unmodifiableCollection(dict.getReusableBehaviours()
+                .get(0)
+                .getVariableUsages());
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
 }
