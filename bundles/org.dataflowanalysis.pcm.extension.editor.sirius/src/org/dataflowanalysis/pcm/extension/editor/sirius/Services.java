@@ -156,8 +156,13 @@ public class Services {
     }
 
     protected static SerializationHelper createSerializationHelper() {
-        var editedResourceProvider = getInjector().getInstance(IEditedResourceProvider.class);
-        return new SerializationHelper(editedResourceProvider);
+    	try {
+    		var editedResourceProvider = getInjector().getInstance(IEditedResourceProvider.class);
+        	return new SerializationHelper(editedResourceProvider);
+    	} catch (Exception e) {
+    		e.printStackTrace();
+    		return null;
+    	}
     }
 
     protected static Injector getInjector() {
