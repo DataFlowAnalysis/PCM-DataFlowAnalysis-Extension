@@ -71,6 +71,88 @@ class DDDslFormatterTest {
     		C
     	}'''.assertFormatting
     }
+    
+    
+    @Test
+    def testBehavior() {
+    	val expected = '''
+    	dictionary id "123456"
+    	
+    	behavior Behavior1 {
+    		input in1
+    		input in2
+    		output out1
+    		output out2
+    	
+    		out1.*.* := in1.*.*
+    		out2.*.* := in2.*.*
+    	}'''
+    	
+    	val toBeFormatted = '''
+    	dictionary id "123456"
+    	
+    	behavior   Behavior1  {
+    		  input   in1
+    		input   in2
+    		  output  out1
+    		output   out2
+    	
+    		  out1  .  *  .  *  :=  in1  .  *  .  *  
+    		  out2  .   *  .  *  :=  in2  .  *  .   *  
+    	}'''
+    	assertFormatting(expected, toBeFormatted)
+    }
+    
+    @Test
+    def testTerms() {
+    	val expected = '''
+    	dictionary id "123456"
+    	
+    	enum FirstEnum {
+    		A
+    	}
+    	enumCharacteristicType Type1 using FirstEnum
+    	
+    	behavior Behavior1 {
+    		input in1
+    		input in2
+    		output out1
+    		output out2
+    	
+    		out1.Type1.* := in1.Type1.*
+    		out1. {
+    			Type1.A := in2.Type1.A
+    			*.* := in1.*.*
+    		}
+    		out2.Type1.A := in2.Type1.A
+    		out1.*.* := true
+    		out2.*.* := !(in1.*.* & in2.*.*)
+    	}'''
+    	
+    	val toBeFormatted = '''
+    	dictionary id "123456"
+    	
+    	enum FirstEnum {
+    		A
+    	}
+    	enumCharacteristicType Type1 using FirstEnum
+    	behavior   Behavior1  {
+    		  input   in1
+    		input   in2
+    		  output  out1
+    		output   out2
+    	
+    		  out1  .  Type1  .  *  :=  in1  .  Type1  .  *  
+    		  out1  .   {
+    		     Type1  .  A  :=  in2  .  Type1  .   A    
+    		     *     .   * :=   in1   .  *  .  *  
+    		  }
+    		    out2  .   Type1  .  A  :=  in2  .  Type1  .   A
+    		   out1 . * . * :=  true  
+    		   out2 . * . * :=   !  (  in1   .  *  .  *   &   in2  .  *  .  *  )  
+    	}'''
+    	assertFormatting(expected, toBeFormatted)
+    }
 
 
 	protected def assertFormatting(CharSequence expected) {
