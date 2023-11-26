@@ -28,6 +28,8 @@ class DDDslFormatter extends CharacterizedDataDictionaryFormatter {
 		dd.characteristicEnumerations.forEach[format]
 		dd.characteristicTypes.forEach[format]
 		dd.characteristics.forEach[format]
+		dd.reusableBehaviours.forEach[format]
+		dd.dataChannelBehaviour.forEach[format]
 	}
 	
 	def dispatch void format(EnumCharacteristic characteristic, extension IFormattableDocument document) {
