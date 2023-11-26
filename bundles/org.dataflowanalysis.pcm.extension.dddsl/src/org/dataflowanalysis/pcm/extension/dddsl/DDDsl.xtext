@@ -21,17 +21,16 @@ PCMDataDictionary returns pddc::PCMDataDictionary:
 		characteristicTypes+=CharacteristicType |
 		characteristics+=PCMCharacteristic |
 		reusableBehaviours+=ReusableBehaviour
-		// add DataChannelBehaviours
 	)*;
 
 @Override 
 CharacteristicType returns ddc::CharacteristicType:
-	EnumCharacteristicType // add DataTypeCharacteristicType
+	EnumCharacteristicType
 ;
 
 
 PCMCharacteristic returns pchar::Characteristic:
-	PCMEnumCharacteristic // add DataTypeCharacteristic
+	PCMEnumCharacteristic
 ;
 
 PCMEnumCharacteristic returns pchar::EnumCharacteristic:
@@ -72,7 +71,7 @@ ConfidentialityVariableCharacterisation:
 ;
 
 VariableCharacterizationLhs returns pex::VariableCharacterizationLhs:
-	LhsEnumCharacteristicReference // add LhsDataTypeCharacteristicReference
+	LhsEnumCharacteristicReference
 ;
 
 LhsEnumCharacteristicReference returns pex::LhsEnumCharacteristicReference:

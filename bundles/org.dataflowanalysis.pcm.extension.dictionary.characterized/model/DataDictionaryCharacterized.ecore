@@ -6,7 +6,7 @@
     <details key="settingDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/LPG"/>
     <details key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/LPG"/>
   </eAnnotations>
-  <eClassifiers xsi:type="ecore:EClass" name="Entity" abstract="true" eSuperTypes="platform:/plugin/de.uka.ipd.sdq.identifier/model/identifier.ecore#//Identifier">
+  <eClassifiers xsi:type="ecore:EClass" name="Entity" abstract="true" eSuperTypes="../../de.uka.ipd.sdq.identifier/model/identifier.ecore#//Identifier">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="DataDictionaryCharacterized" eSuperTypes="../../org.dataflowanalysis.pcm.extension.dictionary/model/DataDictionary.ecore#//DataDictionary">
@@ -48,7 +48,7 @@
       </eAnnotations>
     </eStructuralFeatures>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="Assignment" eSuperTypes="platform:/plugin/de.uka.ipd.sdq.identifier/model/identifier.ecore#//Identifier">
+  <eClassifiers xsi:type="ecore:EClass" name="Assignment" eSuperTypes="../../de.uka.ipd.sdq.identifier/model/identifier.ecore#//Identifier">
     <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
       <details key="constraints" value="leftHandSideRefersOutputPin characteristicWildcardHasToBeOnLhsAndRhs literalWildcardHasToBeOnLhsAndRhs"/>
     </eAnnotations>
@@ -82,7 +82,7 @@
       <details key="settingDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/LPG"/>
       <details key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/LPG"/>
     </eAnnotations>
-    <eClassifiers xsi:type="ecore:EClass" name="Term" abstract="true" eSuperTypes="platform:/plugin/de.uka.ipd.sdq.identifier/model/identifier.ecore#//Identifier http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+    <eClassifiers xsi:type="ecore:EClass" name="Term" abstract="true" eSuperTypes="../../de.uka.ipd.sdq.identifier/model/identifier.ecore#//Identifier http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
     <eClassifiers xsi:type="ecore:EClass" name="Constant" abstract="true" eSuperTypes="#//expressions/Term"/>
     <eClassifiers xsi:type="ecore:EClass" name="True" eSuperTypes="#//expressions/Constant"/>
     <eClassifiers xsi:type="ecore:EClass" name="False" eSuperTypes="#//expressions/Constant"/>
