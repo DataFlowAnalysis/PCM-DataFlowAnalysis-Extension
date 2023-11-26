@@ -10,13 +10,11 @@
     <semanticResources>platform:/plugin/org.eclipse.emf.ecore/model/Ecore.ecore</semanticResources>
     <semanticResources>platform:/resource/org.palladiosimulator.dataflow.dictionary.characterized/model/DataDictionaryCharacterized.ecore</semanticResources>
     <semanticResources>platform:/resource/org.palladiosimulator.dataflow.dictionary/model/DataDictionary.ecore</semanticResources>
-    <semanticResources>platform:/resource/org.palladiosimulator.indirections/model/indirections.ecore</semanticResources>
     <semanticResources>model/dataFlowConfidentiality.genmodel</semanticResources>
     <semanticResources>platform:/resource/org.palladiosimulator.dataflow.dictionary/model/DataDictionary.genmodel</semanticResources>
     <semanticResources>platform:/resource/de.uka.ipd.sdq.identifier/model/identifier.genmodel</semanticResources>
     <semanticResources>platform:/resource/org.palladiosimulator.dataflow.dictionary.characterized/model/DataDictionaryCharacterized.genmodel</semanticResources>
     <semanticResources>platform:/resource/org.eclipse.emf.ecore/model/Ecore.genmodel</semanticResources>
-    <semanticResources>platform:/resource/org.palladiosimulator.indirections/model/indirections.genmodel</semanticResources>
     <semanticResources>platform:/resource/org.palladiosimulator.pcm/model/pcm.genmodel</semanticResources>
     <semanticResources>platform:/resource/de.uka.ipd.sdq.probfunction/model/ProbabilityFunction.genmodel</semanticResources>
     <semanticResources>platform:/resource/de.uka.ipd.sdq.units/model/Units.genmodel</semanticResources>
@@ -1102,8 +1100,6 @@
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC%20ESupertypes']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_N05p8EIeEeuffZtvOppQjQ" name="DataChannel" tooltipText="" outgoingEdges="_55QwBkIfEeuffZtvOppQjQ" incomingEdges="_N1KvsEIeEeuffZtvOppQjQ" width="12" height="10">
-      <target xmi:type="ecore:EClass" href="platform:/resource/org.palladiosimulator.indirections/model/indirections.ecore#//repository/DataChannel"/>
-      <semanticElements xmi:type="ecore:EClass" href="platform:/resource/org.palladiosimulator.indirections/model/indirections.ecore#//repository/DataChannel"/>
       <decorations xmi:type="viewpoint:Decoration" uid="_N06RAUIeEeuffZtvOppQjQ">
         <description xmi:type="description:SemanticBasedDecoration" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@decorationDescriptionsSet/@decorationDescriptions[name='External']"/>
       </decorations>
@@ -1145,14 +1141,10 @@
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EReferenceNode']"/>
       </ownedElements>
       <ownedElements xmi:type="diagram:DNodeListElement" uid="_N1Da8kIeEeuffZtvOppQjQ" name=" /dataSinkRoles : DataSinkRole" tooltipText="">
-        <target xmi:type="ecore:EReference" href="platform:/resource/org.palladiosimulator.indirections/model/indirections.ecore#//repository/DataChannel/dataSinkRoles"/>
-        <semanticElements xmi:type="ecore:EReference" href="platform:/resource/org.palladiosimulator.indirections/model/indirections.ecore#//repository/DataChannel/dataSinkRoles"/>
         <ownedStyle xmi:type="diagram:BundledImage" uid="_N1Da80IeEeuffZtvOppQjQ" labelColor="39,76,114" labelAlignment="LEFT" description="_KlQeIUIeEeuffZtvOppQjQ" color="114,159,207"/>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EReferenceNode']"/>
       </ownedElements>
       <ownedElements xmi:type="diagram:DNodeListElement" uid="_N1Da9EIeEeuffZtvOppQjQ" name=" /dataSourceRoles : DataSourceRole" tooltipText="">
-        <target xmi:type="ecore:EReference" href="platform:/resource/org.palladiosimulator.indirections/model/indirections.ecore#//repository/DataChannel/dataSourceRoles"/>
-        <semanticElements xmi:type="ecore:EReference" href="platform:/resource/org.palladiosimulator.indirections/model/indirections.ecore#//repository/DataChannel/dataSourceRoles"/>
         <ownedStyle xmi:type="diagram:BundledImage" uid="_N1ECAEIeEeuffZtvOppQjQ" labelColor="39,76,114" labelAlignment="LEFT" description="_KlQeIUIeEeuffZtvOppQjQ" color="114,159,207"/>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EReferenceNode']"/>
       </ownedElements>
@@ -1521,8 +1513,6 @@
       </ownedElements>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_55QwBkIfEeuffZtvOppQjQ" sourceNode="_N05p8EIeEeuffZtvOppQjQ" targetNode="_548m8EIfEeuffZtvOppQjQ">
-      <target xmi:type="ecore:EClass" href="platform:/resource/org.palladiosimulator.indirections/model/indirections.ecore#//repository/DataChannel"/>
-      <semanticElements xmi:type="ecore:EClass" href="platform:/resource/org.palladiosimulator.indirections/model/indirections.ecore#//repository/DataChannel"/>
       <decorations xmi:type="viewpoint:Decoration" uid="_55QwDUIfEeuffZtvOppQjQ">
         <description xmi:type="description:SemanticBasedDecoration" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@decorationDescriptionsSet/@decorationDescriptions[name='External']"/>
       </decorations>
