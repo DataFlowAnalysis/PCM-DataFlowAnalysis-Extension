@@ -51,7 +51,6 @@ import org.palladiosimulator.pcm.usagemodel.UsagemodelPackage;
 import org.palladiosimulator.pcm.usagemodel.util.UsagemodelSwitch;
 
 import de.uka.ipd.sdq.stoex.AbstractNamedReference;
-import de.uka.ipd.sdq.stoex.VariableReference;
 
 public class CreateVariableCharacterisationsViaEditor implements IExternalJavaAction {
 
@@ -164,6 +163,12 @@ public class CreateVariableCharacterisationsViaEditor implements IExternalJavaAc
 
         // add variables exposed by previous actions
         var initialAction = findParentOfType(variableUsage, AbstractAction.class).get();
+        var predecessorIter = new AbstractActionPredecessorIterator(initialAction);
+        var variablesExtractor = new AbstractActionOutputVariablesSwitch();
+        while (predecessorIter.hasNext()) {
+            var action = predecessorIter.next();
+            inputs.addAll(variablesExtractor.doSwitch(action));
+        }
 
         // add result for output characterisations of ECAs
         var calledSignatureHasReturn = Optional.of(initialAction)
@@ -367,6 +372,19 @@ public class CreateVariableCharacterisationsViaEditor implements IExternalJavaAc
             queue.addAll(PREDECESSOR_SWITCH.doSwitch(next));
             return next;
         }
+    }
+
+    protected static class AbstractActionOutputVariablesSwitch extends ComposedSwitch<Collection<String>> {
+
+        public AbstractActionOutputVariablesSwitch() {
+            super(Arrays.asList(new AbstractActionOutputVariablesSwitchPCM()));
+        }
+
+        @Override
+        public Collection<String> defaultCase(EObject eObject) {
+            return Collections.emptyList();
+        }
+
     }
 
     protected static class AbstractActionOutputVariablesSwitchPCM extends SeffSwitch<Collection<String>> {

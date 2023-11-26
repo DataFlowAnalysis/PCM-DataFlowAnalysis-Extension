@@ -53,6 +53,18 @@ public final class SerializationHelper {
                 .addAll(copy.getCharacteristicTypes());
         }
 
+        // create behavior
+        var behaviour = BehaviourFactory.eINSTANCE.createReusableBehaviour();
+        dict.getReusableBehaviours()
+            .add(behaviour);
+        behaviour.setEntityName("foo");
+        behaviour.getOutputVariables()
+            .add(createVariableReferenceFromString(lhsName));
+        inputs.stream()
+            .map(SerializationHelper::createVariableReferenceFromString)
+            .forEach(behaviour.getInputVariables()::add);
+        behaviorBuilder.accept(behaviour);
+
         // return dict
         return dict;
     }
