@@ -36,7 +36,7 @@ jobs:
           deploy_key: ${{ secrets.UPDATE_SITE_DEPLOY_KEY }}
           external_repository: DataFlowAnalysis/updatesite
           destination_dir: nightly/pcm-dataflowanalysis-extension/
-          publish_dir: releng/org.palladiosimulator.dataflow.metamodel.updatesite/target/repository
+          publish_dir: releng/org.dataflowanalysis.pcm.extension.updatesite/target/repository
           publish_branch: main
       - name: Publish Release Update Site
         if: github.event_name == 'release' && github.repository_owner == 'DataFlowAnalysis'
@@ -45,6 +45,6 @@ jobs:
           deploy_key: ${{ secrets.UPDATE_SITE_DEPLOY_KEY }}
           external_repository: DataFlowAnalysis/updatesite
           destination_dir: release/pcm-dataflowanalysis-extension/${{ github.event.release.tag_name }}
-          publish_dir: releng/org.palladiosimulator.dataflow.metamodel.updatesite/target/repository
+          publish_dir: releng/org.dataflowanalysis.pcm.extension.updatesite/target/repository
           publish_branch: main
           
