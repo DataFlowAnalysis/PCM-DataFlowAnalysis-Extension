@@ -10,7 +10,6 @@ import org.eclipse.sirius.business.api.session.Session;
 public final class PCMSiriusUtils {
 
 	private static final String PCM_CONFIDENTIALITY_VIEWPOINT_NAME = "PCM-Confidentiality";
-	private static final String PCM_INDIRECTIONS_VIEWPOINT_NAME = "PCM-Indirections";
 
 	private PCMSiriusUtils() {
 		// intentionally left blank
@@ -23,6 +22,6 @@ public final class PCMSiriusUtils {
 
 	public static void enableSpecificViewpoints(Session session) {
 		SiriusUtils.enableViewpoints(session,
-				Arrays.asList(PCM_INDIRECTIONS_VIEWPOINT_NAME, PCM_CONFIDENTIALITY_VIEWPOINT_NAME));
+				Arrays.asList(PCM_CONFIDENTIALITY_VIEWPOINT_NAME));
 	}
 }
