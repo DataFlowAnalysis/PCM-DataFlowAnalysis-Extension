@@ -9,7 +9,7 @@
    <extension point="org.eclipse.emf.edit.itemProviderAdapterFactories">
       <!-- @generated DataDictionaryCharacterized -->
       <factory
-            uri="http://palladiosimulator.org/dataflow/dictionary/characterized/1.0"
+            uri="http://dataflowanalysis.org/pcm/extension/dictionary/characterized/1.0"
             class="org.dataflowanalysis.pcm.extension.dictionary.characterized.DataDictionaryCharacterized.provider.DataDictionaryCharacterizedItemProviderAdapterFactory"
             supportedTypes=
               "org.eclipse.emf.edit.provider.IEditingDomainItemProvider
@@ -22,7 +22,7 @@
    <extension point="org.eclipse.emf.edit.itemProviderAdapterFactories">
       <!-- @generated DataDictionaryCharacterized -->
       <factory
-            uri="http://palladiosimulator.org/dataflow/dictionary/characterized/expressions/1.0"
+            uri="http://dataflowanalysis.org/pcm/extension/dictionary/characterized/expressions/1.0"
             class="org.dataflowanalysis.pcm.extension.dictionary.characterized.DataDictionaryCharacterized.expressions.provider.ExpressionsItemProviderAdapterFactory"
             supportedTypes=
               "org.eclipse.emf.edit.provider.IEditingDomainItemProvider

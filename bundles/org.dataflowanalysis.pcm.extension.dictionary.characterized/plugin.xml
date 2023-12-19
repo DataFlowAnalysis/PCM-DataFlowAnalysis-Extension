@@ -8,7 +8,7 @@
    <extension point="org.eclipse.emf.ecore.generated_package">
       <!-- @generated DataDictionaryCharacterized -->
       <package
-            uri="http://palladiosimulator.org/dataflow/dictionary/characterized/1.0"
+            uri="http://dataflowanalysis.org/pcm/extension/dictionary/characterized/1.0"
             class="org.dataflowanalysis.pcm.extension.dictionary.characterized.DataDictionaryCharacterized.DataDictionaryCharacterizedPackage"
             genModel="model/DataDictionaryCharacterized.genmodel"/>
    </extension>
@@ -16,7 +16,7 @@
    <extension point="org.eclipse.emf.ecore.generated_package">
       <!-- @generated DataDictionaryCharacterized -->
       <package
-            uri="http://palladiosimulator.org/dataflow/dictionary/characterized/expressions/1.0"
+            uri="http://dataflowanalysis.org/pcm/extension/dictionary/characterized/expressions/1.0"
             class="org.dataflowanalysis.pcm.extension.dictionary.characterized.DataDictionaryCharacterized.expressions.ExpressionsPackage"
             genModel="model/DataDictionaryCharacterized.genmodel"/>
    </extension>

@@ -11,7 +11,7 @@
    <extension point="org.eclipse.emf.ecore.generated_package">
       <!-- @generated DataDictionary -->
       <package
-            uri="http://palladiosimulator.org/dataflow/dictionary/1.0"
+            uri="http://dataflowanalysis.org/pcm/extension/dictionary/1.0"
             class="org.dataflowanalysis.pcm.extension.dictionary.DataDictionary.DataDictionaryPackage"
             genModel="model/DataDictionary.genmodel"/>
    </extension>

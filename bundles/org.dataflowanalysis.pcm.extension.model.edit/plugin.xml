@@ -9,7 +9,7 @@
    <extension point="org.eclipse.emf.edit.itemProviderAdapterFactories">
       <!-- @generated dataFlowConfidentiality -->
       <factory
-            uri="http://palladiosimulator.org/dataflow/confidentiality/pcm/0.1.0"
+            uri="http://dataflowanalysis.org/pcm/extension/model/0.1.0"
             class="org.dataflowanalysis.pcm.extension.model.confidentiality.provider.ConfidentialityItemProviderAdapterFactory"
             supportedTypes=
               "org.eclipse.emf.edit.provider.IEditingDomainItemProvider
@@ -29,7 +29,7 @@
    <extension point="org.eclipse.emf.edit.itemProviderAdapterFactories">
       <!-- @generated dataFlowConfidentiality -->
       <factory
-            uri="http://palladiosimulator.org/dataflow/confidentiality/pcm/0.1.0/characteristics"
+            uri="http://dataflowanalysis.org/pcm/extension/model/0.1.0/characteristics"
             class="org.dataflowanalysis.pcm.extension.model.confidentiality.characteristics.provider.CharacteristicsItemProviderAdapterFactory"
             supportedTypes=
               "org.eclipse.emf.edit.provider.IEditingDomainItemProvider
@@ -42,14 +42,14 @@
    <extension point="org.eclipse.emf.edit.childCreationExtenders">
       <!-- @generated dataFlowConfidentiality -->
       <extender
-            uri="http://palladiosimulator.org/dataflow/dictionary/characterized/1.0"
+            uri="http://dataflowanalysis.org/pcm/extension/dictionary/characterized/1.0"
             class="org.dataflowanalysis.pcm.extension.model.confidentiality.characteristics.provider.CharacteristicsItemProviderAdapterFactory$DataDictionaryCharacterizedChildCreationExtender"/>
    </extension>
 
    <extension point="org.eclipse.emf.edit.itemProviderAdapterFactories">
       <!-- @generated dataFlowConfidentiality -->
       <factory
-            uri="http://palladiosimulator.org/dataflow/confidentiality/pcm/0.1.0/expression"
+            uri="http://dataflowanalysis.org/pcm/extension/model/0.1.0/expression"
             class="org.dataflowanalysis.pcm.extension.model.confidentiality.expression.provider.ExpressionItemProviderAdapterFactory"
             supportedTypes=
               "org.eclipse.emf.edit.provider.IEditingDomainItemProvider
@@ -62,17 +62,17 @@
    <extension point="org.eclipse.emf.edit.childCreationExtenders">
       <!-- @generated dataFlowConfidentiality -->
       <extender
-            uri="http://palladiosimulator.org/dataflow/dictionary/characterized/1.0"
+            uri="http://dataflowanalysis.org/pcm/extension/dictionary/characterized/1.0"
             class="org.dataflowanalysis.pcm.extension.model.confidentiality.expression.provider.ExpressionItemProviderAdapterFactory$DataDictionaryCharacterizedChildCreationExtender"/>
       <extender
-            uri="http://palladiosimulator.org/dataflow/dictionary/characterized/expressions/1.0"
+            uri="http://dataflowanalysis.org/pcm/extension/dictionary/characterized/expressions/1.0"
             class="org.dataflowanalysis.pcm.extension.model.confidentiality.expression.provider.ExpressionItemProviderAdapterFactory$ExpressionsChildCreationExtender"/>
    </extension>
 
    <extension point="org.eclipse.emf.edit.itemProviderAdapterFactories">
       <!-- @generated dataFlowConfidentiality -->
       <factory
-            uri="http://palladiosimulator.org/dataflow/confidentiality/pcm/0.1.0/behaviour"
+            uri="http://dataflowanalysis.org/pcm/extension/model/0.1.0/behaviour"
             class="org.dataflowanalysis.pcm.extension.model.confidentiality.behaviour.provider.BehaviourItemProviderAdapterFactory"
             supportedTypes=
               "org.eclipse.emf.edit.provider.IEditingDomainItemProvider
@@ -85,7 +85,7 @@
    <extension point="org.eclipse.emf.edit.itemProviderAdapterFactories">
       <!-- @generated dataFlowConfidentiality -->
       <factory
-            uri="http://palladiosimulator.org/dataflow/confidentiality/pcm/0.1.0/repository"
+            uri="http://dataflowanalysis.org/pcm/extension/model/0.1.0/repository"
             class="org.dataflowanalysis.pcm.extension.model.confidentiality.repository.provider.RepositoryItemProviderAdapterFactory"
             supportedTypes=
               "org.eclipse.emf.edit.provider.IEditingDomainItemProvider
@@ -105,7 +105,7 @@
    <extension point="org.eclipse.emf.edit.itemProviderAdapterFactories">
       <!-- @generated dataFlowConfidentiality -->
       <factory
-            uri="http://palladiosimulator.org/dataflow/confidentiality/pcm/0.1.0/dictionary"
+            uri="http://dataflowanalysis.org/pcm/extension/model/0.1.0/dictionary"
             class="org.dataflowanalysis.pcm.extension.model.confidentiality.dictionary.provider.DictionaryItemProviderAdapterFactory"
             supportedTypes=
               "org.eclipse.emf.edit.provider.IEditingDomainItemProvider
