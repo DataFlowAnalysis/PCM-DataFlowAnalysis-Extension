@@ -14,11 +14,6 @@ Workflow {
 		scanClassPath = true
 		platformUri = workspaceRoot
 		
-//		uriMap = {
-//			from = "platform:/plugin/org.palladiosimulator.dataflow.diagram/model/DataFlowDiagram.genmodel"
-//			to = "platform:/resource/org.palladiosimulator.dataflow.diagram/model/DataFlowDiagram.genmodel"
-//		}
-		
 		uriMap = {
 			from = "platform:/plugin/org.dataflowanalysis.pcm.extension.dictionary/model/DataDictionary.genmodel"
 			to = "platform:/resource/org.dataflowanalysis.pcm.extension.dictionary/model/DataDictionary.genmodel"
@@ -28,12 +23,6 @@ Workflow {
 			from = "platform:/plugin/org.dataflowanalysis.pcm.extension.dictionary.characterized/model/DataDictionaryCharacterized.genmodel"
 			to = "platform:/resource/org.dataflowanalysis.pcm.extension.dictionary.characterized/model/DataDictionaryCharacterized.genmodel"
 		}
-		
-//		uriMap = {
-//			from = "platform:/plugin/org.palladiosimulator.dataflow.diagram.characterized/model/DataFlowDiagramCharacterized.genmodel"
-//			to = "platform:/resource/org.palladiosimulator.dataflow.diagram.characterized/model/DataFlowDiagramCharacterized.genmodel"
-//		}
-		
 		
 		uriMap = {
 			from = "platform:/plugin/de.uka.ipd.sdq.identifier/model/identifier.genmodel"
@@ -152,8 +141,6 @@ Workflow {
 				generateStub = false
 			}
 			validator = {
-				// composedCheck = "org.eclipse.xtext.validation.NamesAreUniqueValidator"
-				// Generates checks for @Deprecated grammar annotations, an IssueProvider and a corresponding PropertyPage
 				generateDeprecationValidation = true
 			}
 			generator = {
