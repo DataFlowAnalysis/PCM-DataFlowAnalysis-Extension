@@ -9,7 +9,7 @@
    <extension point="org.eclipse.emf.ecore.generated_package">
       <!-- @generated dataFlowConfidentiality -->
       <package
-            uri="http://palladiosimulator.org/dataflow/confidentiality/pcm/0.1.0"
+            uri="http://dataflowanalysis.org/pcm/extension/model/0.1.0"
             class="org.dataflowanalysis.pcm.extension.model.confidentiality.ConfidentialityPackage"
             genModel="model/dataFlowConfidentiality.genmodel"/>
    </extension>
@@ -17,7 +17,7 @@
    <extension point="org.eclipse.emf.ecore.generated_package">
       <!-- @generated dataFlowConfidentiality -->
       <package
-            uri="http://palladiosimulator.org/dataflow/confidentiality/pcm/0.1.0/characteristics"
+            uri="http://dataflowanalysis.org/pcm/extension/model/0.1.0/characteristics"
             class="org.dataflowanalysis.pcm.extension.model.confidentiality.characteristics.CharacteristicsPackage"
             genModel="model/dataFlowConfidentiality.genmodel"/>
    </extension>
@@ -25,7 +25,7 @@
    <extension point="org.eclipse.emf.ecore.generated_package">
       <!-- @generated dataFlowConfidentiality -->
       <package
-            uri="http://palladiosimulator.org/dataflow/confidentiality/pcm/0.1.0/expression"
+            uri="http://dataflowanalysis.org/pcm/extension/model/0.1.0/expression"
             class="org.dataflowanalysis.pcm.extension.model.confidentiality.expression.ExpressionPackage"
             genModel="model/dataFlowConfidentiality.genmodel"/>
    </extension>
@@ -33,7 +33,7 @@
    <extension point="org.eclipse.emf.ecore.generated_package">
       <!-- @generated dataFlowConfidentiality -->
       <package
-            uri="http://palladiosimulator.org/dataflow/confidentiality/pcm/0.1.0/behaviour"
+            uri="http://dataflowanalysis.org/pcm/extension/model/0.1.0/behaviour"
             class="org.dataflowanalysis.pcm.extension.model.confidentiality.behaviour.BehaviourPackage"
             genModel="model/dataFlowConfidentiality.genmodel"/>
    </extension>
@@ -41,7 +41,7 @@
    <extension point="org.eclipse.emf.ecore.generated_package">
       <!-- @generated dataFlowConfidentiality -->
       <package
-            uri="http://palladiosimulator.org/dataflow/confidentiality/pcm/0.1.0/repository"
+            uri="http://dataflowanalysis.org/pcm/extension/model/0.1.0/repository"
             class="org.dataflowanalysis.pcm.extension.model.confidentiality.repository.RepositoryPackage"
             genModel="model/dataFlowConfidentiality.genmodel"/>
    </extension>
@@ -49,7 +49,7 @@
    <extension point="org.eclipse.emf.ecore.generated_package">
       <!-- @generated dataFlowConfidentiality -->
       <package
-            uri="http://palladiosimulator.org/dataflow/confidentiality/pcm/0.1.0/dictionary"
+            uri="http://dataflowanalysis.org/pcm/extension/model/0.1.0/dictionary"
             class="org.dataflowanalysis.pcm.extension.model.confidentiality.dictionary.DictionaryPackage"
             genModel="model/dataFlowConfidentiality.genmodel"/>
    </extension>

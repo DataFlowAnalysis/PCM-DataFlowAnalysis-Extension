@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="confidentiality" nsURI="http://palladiosimulator.org/dataflow/confidentiality/pcm/0.1.0"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="confidentiality" nsURI="http://dataflowanalysis.org/pcm/extension/model/0.1.0"
     nsPrefix="confidentiality">
   <eClassifiers xsi:type="ecore:EClass" name="ConfidentialityVariableCharacterisation"
       eSuperTypes="../../org.palladiosimulator.pcm/model/pcm.ecore#//parameter/VariableCharacterisation">
@@ -9,7 +9,7 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="rhs" lowerBound="1" eType="ecore:EClass ../../org.dataflowanalysis.pcm.extension.dictionary.characterized/model/DataDictionaryCharacterized.ecore#//expressions/Term"
         containment="true"/>
   </eClassifiers>
-  <eSubpackages name="characteristics" nsURI="http://palladiosimulator.org/dataflow/confidentiality/pcm/0.1.0/characteristics"
+  <eSubpackages name="characteristics" nsURI="http://dataflowanalysis.org/pcm/extension/model/0.1.0/characteristics"
       nsPrefix="characteristics">
     <eClassifiers xsi:type="ecore:EClass" name="CharacteristicTypeDictionary" eSuperTypes="../../de.uka.ipd.sdq.identifier/model/identifier.ecore#//Identifier">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
@@ -65,7 +65,7 @@
       </eStructuralFeatures>
     </eClassifiers>
   </eSubpackages>
-  <eSubpackages name="expression" nsURI="http://palladiosimulator.org/dataflow/confidentiality/pcm/0.1.0/expression"
+  <eSubpackages name="expression" nsURI="http://dataflowanalysis.org/pcm/extension/model/0.1.0/expression"
       nsPrefix="expression">
     <eClassifiers xsi:type="ecore:EClass" name="AbstractNamedReferenceReference" abstract="true">
       <eStructuralFeatures xsi:type="ecore:EReference" name="namedReference" lowerBound="1"
@@ -86,7 +86,7 @@
     <eClassifiers xsi:type="ecore:EClass" name="LhsDataTypeCharacteristicReference"
         eSuperTypes="#//expression/DataTypeCharacteristicReference #//expression/VariableCharacterizationLhs"/>
   </eSubpackages>
-  <eSubpackages name="behaviour" nsURI="http://palladiosimulator.org/dataflow/confidentiality/pcm/0.1.0/behaviour"
+  <eSubpackages name="behaviour" nsURI="http://dataflowanalysis.org/pcm/extension/model/0.1.0/behaviour"
       nsPrefix="behaviour">
     <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
       <details key="settingDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/LPG"/>
@@ -147,7 +147,7 @@
           containment="true"/>
     </eClassifiers>
   </eSubpackages>
-  <eSubpackages name="repository" nsURI="http://palladiosimulator.org/dataflow/confidentiality/pcm/0.1.0/repository"
+  <eSubpackages name="repository" nsURI="http://dataflowanalysis.org/pcm/extension/model/0.1.0/repository"
       nsPrefix="repository">
     <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
       <details key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/LPG"/>
@@ -163,7 +163,7 @@
       </eAnnotations>
     </eClassifiers>
   </eSubpackages>
-  <eSubpackages name="dictionary" nsURI="http://palladiosimulator.org/dataflow/confidentiality/pcm/0.1.0/dictionary"
+  <eSubpackages name="dictionary" nsURI="http://dataflowanalysis.org/pcm/extension/model/0.1.0/dictionary"
       nsPrefix="dictionary">
     <eClassifiers xsi:type="ecore:EClass" name="PCMDataDictionary" eSuperTypes="../../de.uka.ipd.sdq.identifier/model/identifier.ecore#//Identifier #//characteristics/CharacteristicTypeDictionary #//characteristics/Characteristics #//behaviour/Behaviours"/>
   </eSubpackages>

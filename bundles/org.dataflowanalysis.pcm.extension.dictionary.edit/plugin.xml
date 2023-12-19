@@ -9,7 +9,7 @@
    <extension point="org.eclipse.emf.edit.itemProviderAdapterFactories">
       <!-- @generated DataDictionary -->
       <factory
-            uri="http://palladiosimulator.org/dataflow/dictionary/1.0"
+            uri="http://dataflowanalysis.org/pcm/extension/dictionary/1.0"
             class="org.dataflowanalysis.pcm.extension.dictionary.DataDictionary.provider.DataDictionaryItemProviderAdapterFactory"
             supportedTypes=
               "org.eclipse.emf.edit.provider.IEditingDomainItemProvider

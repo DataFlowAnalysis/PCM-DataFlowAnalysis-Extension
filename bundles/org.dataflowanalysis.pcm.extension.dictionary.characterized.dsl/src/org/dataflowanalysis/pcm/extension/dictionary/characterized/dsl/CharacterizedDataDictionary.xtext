@@ -3,7 +3,7 @@ grammar org.dataflowanalysis.pcm.extension.dictionary.characterized.dsl.Characte
 import "platform:/resource/org.dataflowanalysis.pcm.extension.dictionary.characterized/model/DataDictionaryCharacterized.ecore"
 import "platform:/resource/org.dataflowanalysis.pcm.extension.dictionary.characterized/model/DataDictionaryCharacterized.ecore#//expressions" as ex
 import "http://www.eclipse.org/emf/2002/Ecore" as ecore
-import "http://palladiosimulator.org/dataflow/dictionary/1.0" as dd
+import "http://dataflowanalysis.org/pcm/extension/dictionary/1.0" as dd
 
 DataDictionaryCharacterized returns DataDictionaryCharacterized:
 	{DataDictionaryCharacterized}
