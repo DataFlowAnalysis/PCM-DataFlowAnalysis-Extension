@@ -48,4 +48,5 @@ Workflow {
 			gen = "platform:/resource/${dataDictionaryProjectName}.edit/src-gen"
 			src = "platform:/resource/${dataDictionaryProjectName}.edit/src"
 		}
+  }
 }
