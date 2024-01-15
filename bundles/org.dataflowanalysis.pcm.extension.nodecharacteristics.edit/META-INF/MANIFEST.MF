@@ -8,7 +8,7 @@ Bundle-ClassPath: .
 Bundle-Activator: org.dataflowanalysis.pcm.extension.nodecharacteristics.nodecharacteristics.provider.NodeCharacteristicsEditPlugin$Implementation
 Bundle-Vendor: %providerName
 Bundle-Localization: plugin
-Bundle-RequiredExecutionEnvironment: JavaSE-17
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
 Export-Package: org.dataflowanalysis.pcm.extension.nodecharacteristics.nodecharacteristics.provider
 Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.emf.cdo.edit;visibility:=reexport,

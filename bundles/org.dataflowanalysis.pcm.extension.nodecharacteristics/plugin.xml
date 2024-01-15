@@ -9,7 +9,7 @@
    <extension point="org.eclipse.emf.ecore.generated_package">
       <!-- @generated nodeCharacteristics -->
       <package
-            uri="http://www.example.org/nodeCharacteristics"
+            uri="http://dataflowanalysis.org/pcm/extension/nodecharacteristics/0.1.0"
             class="org.dataflowanalysis.pcm.extension.nodecharacteristics.nodecharacteristics.NodeCharacteristicsPackage"
             genModel="model/nodeCharacteristics.genmodel"/>
    </extension>

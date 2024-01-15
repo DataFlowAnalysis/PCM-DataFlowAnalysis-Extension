@@ -2,19 +2,19 @@
 <ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="nodecharacteristics" nsURI="http://dataflowanalysis.org/pcm/extension/nodecharacteristics/0.1.0"
     nsPrefix="nodecharacteristics">
-  <eClassifiers xsi:type="ecore:EClass" name="UsageAssignee" eSuperTypes="#//AbstractAssignee platform:/plugin/de.uka.ipd.sdq.identifier/model/identifier.ecore#//Identifier">
+  <eClassifiers xsi:type="ecore:EClass" name="UsageAssignee" eSuperTypes="#//AbstractAssignee">
     <eStructuralFeatures xsi:type="ecore:EReference" name="usagescenario" lowerBound="1"
         eType="ecore:EClass ../../org.palladiosimulator.pcm/model/pcm.ecore#//usagemodel/UsageScenario"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="RessourceAssignee" eSuperTypes="#//AbstractAssignee platform:/plugin/de.uka.ipd.sdq.identifier/model/identifier.ecore#//Identifier">
+  <eClassifiers xsi:type="ecore:EClass" name="ResourceAssignee" eSuperTypes="#//AbstractAssignee">
     <eStructuralFeatures xsi:type="ecore:EReference" name="resourcecontainer" lowerBound="1"
         eType="ecore:EClass ../../org.palladiosimulator.pcm/model/pcm.ecore#//resourceenvironment/ResourceContainer"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="AssemblyAssignee" eSuperTypes="#//AbstractAssignee platform:/plugin/de.uka.ipd.sdq.identifier/model/identifier.ecore#//Identifier">
+  <eClassifiers xsi:type="ecore:EClass" name="AssemblyAssignee" eSuperTypes="#//AbstractAssignee">
     <eStructuralFeatures xsi:type="ecore:EReference" name="assemblycontext" lowerBound="1"
         eType="ecore:EClass ../../org.palladiosimulator.pcm/model/pcm.ecore#//core/composition/AssemblyContext"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="AbstractAssignee" abstract="true">
+  <eClassifiers xsi:type="ecore:EClass" name="AbstractAssignee" abstract="true" eSuperTypes="../../org.palladiosimulator.pcm/model/pcm.ecore#//core/entity/Entity">
     <eStructuralFeatures xsi:type="ecore:EReference" name="characteristics" upperBound="-1"
         eType="ecore:EClass ../../org.dataflowanalysis.pcm.extension.model/model/dataFlowConfidentiality.ecore#//characteristics/EnumCharacteristic"
         containment="true"/>

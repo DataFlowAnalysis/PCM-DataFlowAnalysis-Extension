@@ -9,7 +9,7 @@
    <extension point="org.eclipse.emf.edit.itemProviderAdapterFactories">
       <!-- @generated nodeCharacteristics -->
       <factory
-            uri="http://www.example.org/nodeCharacteristics"
+            uri="http://dataflowanalysis.org/pcm/extension/nodecharacteristics/0.1.0"
             class="org.dataflowanalysis.pcm.extension.nodecharacteristics.nodecharacteristics.provider.NodeCharacteristicsItemProviderAdapterFactory"
             supportedTypes=
               "org.eclipse.emf.edit.provider.IEditingDomainItemProvider
