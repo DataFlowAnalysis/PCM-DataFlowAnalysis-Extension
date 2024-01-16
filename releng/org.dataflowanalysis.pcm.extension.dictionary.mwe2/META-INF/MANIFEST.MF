@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Data Flow Diagram MWE2
 Bundle-SymbolicName: org.dataflowanalysis.pcm.extension.dictionary.mwe2
-Bundle-Version: 5.1.0.qualifier
+Bundle-Version: 5.2.0.qualifier
 Automatic-Module-Name: org.dataflowanalysis.pcm.extension.dictionary.mwe2
 Require-Bundle: org.eclipse.emf.mwe2.launch;bundle-version="2.10.0",
  org.eclipse.emf.mwe2.lib,
@@ -10,6 +10,6 @@ Require-Bundle: org.eclipse.emf.mwe2.launch;bundle-version="2.10.0",
  org.apache.log4j;bundle-version="1.2.15",
  org.eclipse.core.runtime;bundle-version="3.16.0",
  org.apache.commons.logging;bundle-version="1.2.0",
- de.uka.ipd.sdq.identifier;bundle-version="4.2.0",
+ de.uka.ipd.sdq.identifier,
  org.objectweb.asm
 Bundle-RequiredExecutionEnvironment: JavaSE-17

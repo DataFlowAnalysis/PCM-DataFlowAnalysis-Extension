@@ -3,7 +3,7 @@ Automatic-Module-Name: org.dataflowanalysis.pcm.extension.dddsl
 Bundle-ManifestVersion: 2
 Bundle-Name: org.dataflowanalysis.pcm.extension.dddsl
 Bundle-Vendor: My Company
-Bundle-Version: 5.1.0.qualifier
+Bundle-Version: 5.2.0.qualifier
 Bundle-SymbolicName: org.dataflowanalysis.pcm.extension.dddsl; singleton:=true
 Bundle-ActivationPolicy: lazy
 Require-Bundle: org.dataflowanalysis.pcm.extension.model;visibility:=reexport,
@@ -13,7 +13,7 @@ Require-Bundle: org.dataflowanalysis.pcm.extension.model;visibility:=reexport,
  org.eclipse.xtext.xbase.lib;bundle-version="2.14.0",
  org.eclipse.xtext.util,
  org.antlr.runtime;bundle-version="[3.2.0,3.2.1)",
- org.dataflowanalysis.pcm.extension.dictionary.characterized.dsl;bundle-version="1.0.0";visibility:=reexport
+ org.dataflowanalysis.pcm.extension.dictionary.characterized.dsl;visibility:=reexport
 Bundle-RequiredExecutionEnvironment: JavaSE-17
 Export-Package: org.dataflowanalysis.pcm.extension.dddsl,
  org.dataflowanalysis.pcm.extension.dddsl.formatting2,
