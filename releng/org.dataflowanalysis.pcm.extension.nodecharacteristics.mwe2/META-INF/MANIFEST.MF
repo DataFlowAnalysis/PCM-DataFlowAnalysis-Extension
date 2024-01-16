@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: MWE2
 Bundle-SymbolicName: org.dataflowanalysis.pcm.extension.nodecharacteristics.mwe2
-Bundle-Version: 5.1.0.qualifier
+Bundle-Version: 5.2.0.qualifier
 Automatic-Module-Name: org.dataflowanalysis.pcm.extension.nodecharacteristics.mwe2
 Bundle-RequiredExecutionEnvironment: JavaSE-17
 Require-Bundle: org.eclipse.emf.mwe2.launch,
@@ -10,11 +10,11 @@ Require-Bundle: org.eclipse.emf.mwe2.launch,
  org.eclipse.emf.mwe2.runtime;bundle-version="2.10.0",
  tools.mdsd.ecoreworkflow.mwe2lib,
  org.eclipse.xtext.xtext.generator,
- de.uka.ipd.sdq.identifier;bundle-version="4.2.0",
- org.palladiosimulator.pcm;bundle-version="4.2.0",
- org.dataflowanalysis.pcm.extension.dictionary;bundle-version="0.1.0",
- org.dataflowanalysis.pcm.extension.dictionary.characterized;bundle-version="0.1.0",
- org.dataflowanalysis.pcm.extension.dictionary.characterized.dsl;bundle-version="1.0.0",
+ de.uka.ipd.sdq.identifier,
+ org.palladiosimulator.pcm,
+ org.dataflowanalysis.pcm.extension.dictionary,
+ org.dataflowanalysis.pcm.extension.dictionary.characterized,
+ org.dataflowanalysis.pcm.extension.dictionary.characterized.dsl,
  org.apache.log4j,
  org.eclipse.core.runtime,
  org.apache.commons.logging,

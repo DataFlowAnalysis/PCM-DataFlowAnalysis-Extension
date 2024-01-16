@@ -3,7 +3,7 @@ Automatic-Module-Name: org.dataflowanalysis.pcm.extension.dddsl.ui.tests
 Bundle-ManifestVersion: 2
 Bundle-Name: org.dataflowanalysis.pcm.extension.dddsl.ui.tests
 Bundle-Vendor: My Company
-Bundle-Version: 5.1.0.qualifier
+Bundle-Version: 5.2.0.qualifier
 Bundle-SymbolicName: org.dataflowanalysis.pcm.extension.dddsl.ui.tests; singleton:=true
 Bundle-ActivationPolicy: lazy
 Require-Bundle: org.dataflowanalysis.pcm.extension.dddsl.ui,
@@ -15,7 +15,7 @@ Require-Bundle: org.dataflowanalysis.pcm.extension.dddsl.ui,
  org.eclipse.core.runtime,
  org.eclipse.xtext.ui.testing,
  org.eclipse.ui.workbench;resolution:=optional,
- tools.mdsd.junit5utils;bundle-version="0.1.0",
+ tools.mdsd.junit5utils,
  org.eclipse.xtext.xbase.ui.testing
 Bundle-RequiredExecutionEnvironment: JavaSE-17
 Export-Package: org.dataflowanalysis.pcm.extension.dddsl.ui.tests;x-internal=true

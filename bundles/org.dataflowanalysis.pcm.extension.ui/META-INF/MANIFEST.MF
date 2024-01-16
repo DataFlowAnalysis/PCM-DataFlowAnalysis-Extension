@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: DataFlow Confidentiality UI
 Bundle-SymbolicName: org.dataflowanalysis.pcm.extension.ui;singleton:=true
-Bundle-Version: 5.1.0.qualifier
+Bundle-Version: 5.2.0.qualifier
 Automatic-Module-Name: org.dataflowanalysis.pcm.extension.ui
 Bundle-RequiredExecutionEnvironment: JavaSE-17
 Require-Bundle: org.eclipse.ui;bundle-version="3.118.0",
@@ -14,7 +14,7 @@ Require-Bundle: org.eclipse.ui;bundle-version="3.118.0",
  org.dataflowanalysis.pcm.extension.dictionary.characterized,
  org.dataflowanalysis.pcm.extension.dictionary.characterized.dsl.ui,
  org.eclipse.emf.transaction;bundle-version="1.9.1",
- org.dataflowanalysis.pcm.extension.dictionary.characterized.dsl;bundle-version="5.1.0"
+ org.dataflowanalysis.pcm.extension.dictionary.characterized.dsl
 Export-Package: org.dataflowanalysis.pcm.extension.ui.wizard
 Bundle-ActivationPolicy: lazy
 Bundle-Activator: org.dataflowanalysis.pcm.extension.ui.Activator

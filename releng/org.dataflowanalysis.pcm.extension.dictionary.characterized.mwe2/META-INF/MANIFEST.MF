@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Workflow
 Bundle-SymbolicName: org.dataflowanalysis.pcm.extension.dictionary.characterized.mwe2
-Bundle-Version: 5.1.0.qualifier
+Bundle-Version: 5.2.0.qualifier
 Automatic-Module-Name: org.dataflowanalysis.pcm.extension.dictionary.characterized.mwe2
 Bundle-RequiredExecutionEnvironment: JavaSE-17
 Require-Bundle: org.apache.commons.logging,
@@ -10,7 +10,7 @@ Require-Bundle: org.apache.commons.logging,
  org.eclipse.uml2.codegen.ecore,
  tools.mdsd.ecoreworkflow.mwe2lib,
  de.uka.ipd.sdq.identifier;bundle-version="2.1.0",
- org.dataflowanalysis.pcm.extension.dictionary;bundle-version="0.1.0",
+ org.dataflowanalysis.pcm.extension.dictionary,
  org.eclipse.xtext.xtext.generator,
  org.eclipse.xtext.xbase,
  org.eclipse.xtext.common.types,

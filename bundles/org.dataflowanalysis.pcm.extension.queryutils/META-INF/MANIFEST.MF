@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: PCM Query Utils
 Bundle-SymbolicName: org.dataflowanalysis.pcm.extension.queryutils
-Bundle-Version: 5.1.0.qualifier
+Bundle-Version: 5.2.0.qualifier
 Automatic-Module-Name: org.dataflowanalysis.pcm.extension.queryutils
 Bundle-RequiredExecutionEnvironment: JavaSE-17
 Require-Bundle: com.google.guava,
@@ -10,5 +10,5 @@ Require-Bundle: com.google.guava,
  org.eclipse.xtend.lib,
  org.eclipse.xtend.lib.macro,
  org.eclipse.emf.ecore;bundle-version="2.19.0",
- org.palladiosimulator.pcm;bundle-version="4.2.0"
+ org.palladiosimulator.pcm
 Export-Package: org.dataflowanalysis.pcm.extension.queryutils
