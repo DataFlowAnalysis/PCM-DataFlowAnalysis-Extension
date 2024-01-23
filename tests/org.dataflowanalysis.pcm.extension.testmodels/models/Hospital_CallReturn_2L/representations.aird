@@ -56,9 +56,6 @@
         <target xmi:type="seff:ResourceDemandingSEFF" href="newRepository.repository#_Df3BQIN8Eeyth_Kqe2ur6g"/>
       </ownedRepresentationDescriptors>
     </ownedViews>
-    <ownedViews xmi:type="viewpoint:DView" uid="_6wD1AIN6Eeyth_Kqe2ur6g">
-      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.palladiosimulator.indirections.editor.sirius/description/indirections.odesign#//@ownedViewpoints[name='PCM-Indirections']"/>
-    </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_6xpJYIN6Eeyth_Kqe2ur6g">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.palladiosimulator.dataflow.confidentiality.pcm.editor.sirius/description/sirius.odesign#//@ownedViewpoints[name='PCM-Confidentiality']"/>
     </ownedViews>
@@ -861,8 +858,7 @@
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']/@additionalLayers[name='Component%20Types']"/>
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']/@additionalLayers[name='Event-Based%20Communication']"/>
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']/@ownedRepresentations[name='Repository%20Diagram']/@additionalLayers[name='DataTypes']"/>
-    <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.palladiosimulator.indirections.editor.sirius/description/indirections.odesign#//@ownedViewpoints[name='PCM-Indirections']/@ownedRepresentationExtensions[name='PCM%20Indirections%20Repository']/@layers[name='org.palladiosimulator.indirections.editor.sirius.Indirections']"/>
-    <target xmi:type="repository:Repository" href="newRepository.repository#_HAsVoIN6Eeyth_Kqe2ur6g"/>
+        <target xmi:type="repository:Repository" href="newRepository.repository#_HAsVoIN6Eeyth_Kqe2ur6g"/>
   </diagram:DSemanticDiagram>
   <diagram:DSemanticDiagram uid="__rzWQIN6Eeyth_Kqe2ur6g">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="__r410IN6Eeyth_Kqe2ur6g" source="GMF_DIAGRAMS">
@@ -877,8 +873,7 @@
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="__rz9UIN6Eeyth_Kqe2ur6g"/>
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.palladiosimulator.editors.sirius.seff/description/seff.odesign#//@ownedViewpoints[name='Seff']/@ownedRepresentations[name='Seff%20Diagram']/@defaultLayer"/>
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.palladiosimulator.dataflow.confidentiality.pcm.editor.sirius/description/sirius.odesign#//@ownedViewpoints[name='PCM-Confidentiality']/@ownedRepresentationExtensions[name='PCM%20Confidentiality%20SEFF']/@layers[name='org.palladiosimulator.dataflow.confidentiality.pcm.editor.sirius.seff']"/>
-    <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.palladiosimulator.indirections.editor.sirius/description/indirections.odesign#//@ownedViewpoints[name='PCM-Indirections']/@ownedRepresentationExtensions[name='PCM%20Indirections%20SEFF']/@layers[name='org.palladiosimulator.indirections.editor.sirius.Indirections.seff']"/>
-    <target xmi:type="seff:ResourceDemandingSEFF" href="newRepository.repository#__cDDAIN6Eeyth_Kqe2ur6g"/>
+        <target xmi:type="seff:ResourceDemandingSEFF" href="newRepository.repository#__cDDAIN6Eeyth_Kqe2ur6g"/>
   </diagram:DSemanticDiagram>
   <diagram:DSemanticDiagram uid="_ALOdMIN7Eeyth_Kqe2ur6g">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_ALSHkIN7Eeyth_Kqe2ur6g" source="GMF_DIAGRAMS">
@@ -893,8 +888,7 @@
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_ALPEQIN7Eeyth_Kqe2ur6g"/>
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.palladiosimulator.editors.sirius.seff/description/seff.odesign#//@ownedViewpoints[name='Seff']/@ownedRepresentations[name='Seff%20Diagram']/@defaultLayer"/>
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.palladiosimulator.dataflow.confidentiality.pcm.editor.sirius/description/sirius.odesign#//@ownedViewpoints[name='PCM-Confidentiality']/@ownedRepresentationExtensions[name='PCM%20Confidentiality%20SEFF']/@layers[name='org.palladiosimulator.dataflow.confidentiality.pcm.editor.sirius.seff']"/>
-    <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.palladiosimulator.indirections.editor.sirius/description/indirections.odesign#//@ownedViewpoints[name='PCM-Indirections']/@ownedRepresentationExtensions[name='PCM%20Indirections%20SEFF']/@layers[name='org.palladiosimulator.indirections.editor.sirius.Indirections.seff']"/>
-    <target xmi:type="seff:ResourceDemandingSEFF" href="newRepository.repository#__8caUIN6Eeyth_Kqe2ur6g"/>
+        <target xmi:type="seff:ResourceDemandingSEFF" href="newRepository.repository#__8caUIN6Eeyth_Kqe2ur6g"/>
   </diagram:DSemanticDiagram>
   <diagram:DSemanticDiagram uid="_Ed0TwIN7Eeyth_Kqe2ur6g">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_Ed5MQIN7Eeyth_Kqe2ur6g" source="GMF_DIAGRAMS">
@@ -1086,8 +1080,7 @@
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_Ed0TwYN7Eeyth_Kqe2ur6g"/>
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.palladiosimulator.editors.sirius.seff/description/seff.odesign#//@ownedViewpoints[name='Seff']/@ownedRepresentations[name='Seff%20Diagram']/@defaultLayer"/>
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.palladiosimulator.dataflow.confidentiality.pcm.editor.sirius/description/sirius.odesign#//@ownedViewpoints[name='PCM-Confidentiality']/@ownedRepresentationExtensions[name='PCM%20Confidentiality%20SEFF']/@layers[name='org.palladiosimulator.dataflow.confidentiality.pcm.editor.sirius.seff']"/>
-    <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.palladiosimulator.indirections.editor.sirius/description/indirections.odesign#//@ownedViewpoints[name='PCM-Indirections']/@ownedRepresentationExtensions[name='PCM%20Indirections%20SEFF']/@layers[name='org.palladiosimulator.indirections.editor.sirius.Indirections.seff']"/>
-    <target xmi:type="seff:ResourceDemandingSEFF" href="newRepository.repository#_Edx3gIN7Eeyth_Kqe2ur6g"/>
+        <target xmi:type="seff:ResourceDemandingSEFF" href="newRepository.repository#_Edx3gIN7Eeyth_Kqe2ur6g"/>
   </diagram:DSemanticDiagram>
   <diagram:DSemanticDiagram uid="_EeELYIN7Eeyth_Kqe2ur6g">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_EeH1wIN7Eeyth_Kqe2ur6g" source="GMF_DIAGRAMS">
@@ -1470,8 +1463,7 @@
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_EeEycIN7Eeyth_Kqe2ur6g"/>
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.palladiosimulator.editors.sirius.seff/description/seff.odesign#//@ownedViewpoints[name='Seff']/@ownedRepresentations[name='Seff%20Diagram']/@defaultLayer"/>
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.palladiosimulator.dataflow.confidentiality.pcm.editor.sirius/description/sirius.odesign#//@ownedViewpoints[name='PCM-Confidentiality']/@ownedRepresentationExtensions[name='PCM%20Confidentiality%20SEFF']/@layers[name='org.palladiosimulator.dataflow.confidentiality.pcm.editor.sirius.seff']"/>
-    <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.palladiosimulator.indirections.editor.sirius/description/indirections.odesign#//@ownedViewpoints[name='PCM-Indirections']/@ownedRepresentationExtensions[name='PCM%20Indirections%20SEFF']/@layers[name='org.palladiosimulator.indirections.editor.sirius.Indirections.seff']"/>
-    <target xmi:type="seff:ResourceDemandingSEFF" href="newRepository.repository#_EeC9QIN7Eeyth_Kqe2ur6g"/>
+        <target xmi:type="seff:ResourceDemandingSEFF" href="newRepository.repository#_EeC9QIN7Eeyth_Kqe2ur6g"/>
   </diagram:DSemanticDiagram>
   <diagram:DSemanticDiagram uid="_IhgLoIN7Eeyth_Kqe2ur6g">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_IhmSQIN7Eeyth_Kqe2ur6g" source="GMF_DIAGRAMS">
@@ -1682,8 +1674,7 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.palladiosimulator.editors.sirius.assembly/description/assembly.odesign#//@ownedViewpoints[name='Assembly']/@ownedRepresentations[name='Assembly%20Diagram']/@defaultLayer"/>
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.palladiosimulator.editors.sirius.assembly/description/assembly.odesign#//@ownedViewpoints[name='Assembly']/@ownedRepresentations[name='Assembly%20Diagram']/@additionalLayers[name='QoS']"/>
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.palladiosimulator.dataflow.confidentiality.pcm.editor.sirius/description/sirius.odesign#//@ownedViewpoints[name='PCM-Confidentiality']/@ownedRepresentationExtensions[name='PCM%20Confidentiality%20Assembly']/@layers[name='org.palladiosimulator.dataflow.confidentiality.pcm.editor.sirius.assembly']"/>
-    <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.palladiosimulator.indirections.editor.sirius/description/indirections.odesign#//@ownedViewpoints[name='PCM-Indirections']/@ownedRepresentationExtensions[name='PCM%20Indirections%20Assembly']/@layers[name='org.palladiosimulator.indirections.editor.sirius.Indirections.assembly']"/>
-    <target xmi:type="repository:CompositeComponent" href="newRepository.repository#_Igxy4IN7Eeyth_Kqe2ur6g"/>
+        <target xmi:type="repository:CompositeComponent" href="newRepository.repository#_Igxy4IN7Eeyth_Kqe2ur6g"/>
   </diagram:DSemanticDiagram>
   <diagram:DSemanticDiagram uid="__zVFIIN7Eeyth_Kqe2ur6g" target="__zTP8IN7Eeyth_Kqe2ur6g">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="__zYvgIN7Eeyth_Kqe2ur6g" source="GMF_DIAGRAMS">
@@ -1755,8 +1746,7 @@
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="__zVsMIN7Eeyth_Kqe2ur6g"/>
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.palladiosimulator.editors.sirius.seff/description/seff.odesign#//@ownedViewpoints[name='Seff']/@ownedRepresentations[name='Seff%20Diagram']/@defaultLayer"/>
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.palladiosimulator.dataflow.confidentiality.pcm.editor.sirius/description/sirius.odesign#//@ownedViewpoints[name='PCM-Confidentiality']/@ownedRepresentationExtensions[name='PCM%20Confidentiality%20SEFF']/@layers[name='org.palladiosimulator.dataflow.confidentiality.pcm.editor.sirius.seff']"/>
-    <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.palladiosimulator.indirections.editor.sirius/description/indirections.odesign#//@ownedViewpoints[name='PCM-Indirections']/@ownedRepresentationExtensions[name='PCM%20Indirections%20SEFF']/@layers[name='org.palladiosimulator.indirections.editor.sirius.Indirections.seff']"/>
-  </diagram:DSemanticDiagram>
+      </diagram:DSemanticDiagram>
   <diagram:DSemanticDiagram uid="__0CPwIN7Eeyth_Kqe2ur6g" target="__0AakIN7Eeyth_Kqe2ur6g">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="__0FTEIN7Eeyth_Kqe2ur6g" source="GMF_DIAGRAMS">
       <data xmi:type="notation:Diagram" xmi:id="__0FTEYN7Eeyth_Kqe2ur6g" type="Sirius" element="__0CPwIN7Eeyth_Kqe2ur6g" measurementUnit="Pixel">
@@ -1827,8 +1817,7 @@
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="__0CPwYN7Eeyth_Kqe2ur6g"/>
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.palladiosimulator.editors.sirius.seff/description/seff.odesign#//@ownedViewpoints[name='Seff']/@ownedRepresentations[name='Seff%20Diagram']/@defaultLayer"/>
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.palladiosimulator.dataflow.confidentiality.pcm.editor.sirius/description/sirius.odesign#//@ownedViewpoints[name='PCM-Confidentiality']/@ownedRepresentationExtensions[name='PCM%20Confidentiality%20SEFF']/@layers[name='org.palladiosimulator.dataflow.confidentiality.pcm.editor.sirius.seff']"/>
-    <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.palladiosimulator.indirections.editor.sirius/description/indirections.odesign#//@ownedViewpoints[name='PCM-Indirections']/@ownedRepresentationExtensions[name='PCM%20Indirections%20SEFF']/@layers[name='org.palladiosimulator.indirections.editor.sirius.Indirections.seff']"/>
-  </diagram:DSemanticDiagram>
+      </diagram:DSemanticDiagram>
   <diagram:DSemanticDiagram uid="_Dfl7gIN8Eeyth_Kqe2ur6g">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_Dfq0AIN8Eeyth_Kqe2ur6g" source="GMF_DIAGRAMS">
       <data xmi:type="notation:Diagram" xmi:id="_Dfq0AYN8Eeyth_Kqe2ur6g" type="Sirius" element="_Dfl7gIN8Eeyth_Kqe2ur6g" measurementUnit="Pixel">
@@ -1986,8 +1975,7 @@
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_DfmikIN8Eeyth_Kqe2ur6g"/>
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.palladiosimulator.editors.sirius.seff/description/seff.odesign#//@ownedViewpoints[name='Seff']/@ownedRepresentations[name='Seff%20Diagram']/@defaultLayer"/>
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.palladiosimulator.dataflow.confidentiality.pcm.editor.sirius/description/sirius.odesign#//@ownedViewpoints[name='PCM-Confidentiality']/@ownedRepresentationExtensions[name='PCM%20Confidentiality%20SEFF']/@layers[name='org.palladiosimulator.dataflow.confidentiality.pcm.editor.sirius.seff']"/>
-    <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.palladiosimulator.indirections.editor.sirius/description/indirections.odesign#//@ownedViewpoints[name='PCM-Indirections']/@ownedRepresentationExtensions[name='PCM%20Indirections%20SEFF']/@layers[name='org.palladiosimulator.indirections.editor.sirius.Indirections.seff']"/>
-    <target xmi:type="seff:ResourceDemandingSEFF" href="newRepository.repository#_DfjfQIN8Eeyth_Kqe2ur6g"/>
+        <target xmi:type="seff:ResourceDemandingSEFF" href="newRepository.repository#_DfjfQIN8Eeyth_Kqe2ur6g"/>
   </diagram:DSemanticDiagram>
   <diagram:DSemanticDiagram uid="_Dfw6oIN8Eeyth_Kqe2ur6g">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_Dfz98IN8Eeyth_Kqe2ur6g" source="GMF_DIAGRAMS">
@@ -2182,8 +2170,7 @@
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_DfxhsIN8Eeyth_Kqe2ur6g"/>
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.palladiosimulator.editors.sirius.seff/description/seff.odesign#//@ownedViewpoints[name='Seff']/@ownedRepresentations[name='Seff%20Diagram']/@defaultLayer"/>
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.palladiosimulator.dataflow.confidentiality.pcm.editor.sirius/description/sirius.odesign#//@ownedViewpoints[name='PCM-Confidentiality']/@ownedRepresentationExtensions[name='PCM%20Confidentiality%20SEFF']/@layers[name='org.palladiosimulator.dataflow.confidentiality.pcm.editor.sirius.seff']"/>
-    <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.palladiosimulator.indirections.editor.sirius/description/indirections.odesign#//@ownedViewpoints[name='PCM-Indirections']/@ownedRepresentationExtensions[name='PCM%20Indirections%20SEFF']/@layers[name='org.palladiosimulator.indirections.editor.sirius.Indirections.seff']"/>
-    <target xmi:type="seff:ResourceDemandingSEFF" href="newRepository.repository#_DfvsgIN8Eeyth_Kqe2ur6g"/>
+        <target xmi:type="seff:ResourceDemandingSEFF" href="newRepository.repository#_DfvsgIN8Eeyth_Kqe2ur6g"/>
   </diagram:DSemanticDiagram>
   <diagram:DSemanticDiagram uid="_Df4PYIN8Eeyth_Kqe2ur6g">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_Df7SsIN8Eeyth_Kqe2ur6g" source="GMF_DIAGRAMS">
@@ -2490,8 +2477,7 @@
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_Df42cIN8Eeyth_Kqe2ur6g"/>
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.palladiosimulator.editors.sirius.seff/description/seff.odesign#//@ownedViewpoints[name='Seff']/@ownedRepresentations[name='Seff%20Diagram']/@defaultLayer"/>
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.palladiosimulator.dataflow.confidentiality.pcm.editor.sirius/description/sirius.odesign#//@ownedViewpoints[name='PCM-Confidentiality']/@ownedRepresentationExtensions[name='PCM%20Confidentiality%20SEFF']/@layers[name='org.palladiosimulator.dataflow.confidentiality.pcm.editor.sirius.seff']"/>
-    <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.palladiosimulator.indirections.editor.sirius/description/indirections.odesign#//@ownedViewpoints[name='PCM-Indirections']/@ownedRepresentationExtensions[name='PCM%20Indirections%20SEFF']/@layers[name='org.palladiosimulator.indirections.editor.sirius.Indirections.seff']"/>
-    <target xmi:type="seff:ResourceDemandingSEFF" href="newRepository.repository#_Df3BQIN8Eeyth_Kqe2ur6g"/>
+        <target xmi:type="seff:ResourceDemandingSEFF" href="newRepository.repository#_Df3BQIN8Eeyth_Kqe2ur6g"/>
   </diagram:DSemanticDiagram>
   <diagram:DSemanticDiagram uid="_LsvmUIOAEeyth_Kqe2ur6g">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_LsxbgIOAEeyth_Kqe2ur6g" source="GMF_DIAGRAMS">
@@ -2838,8 +2824,7 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.palladiosimulator.editors.sirius.assembly/description/assembly.odesign#//@ownedViewpoints[name='Assembly']/@ownedRepresentations[name='Assembly%20Diagram']/@defaultLayer"/>
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.palladiosimulator.editors.sirius.assembly/description/assembly.odesign#//@ownedViewpoints[name='Assembly']/@ownedRepresentations[name='Assembly%20Diagram']/@additionalLayers[name='QoS']"/>
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.palladiosimulator.dataflow.confidentiality.pcm.editor.sirius/description/sirius.odesign#//@ownedViewpoints[name='PCM-Confidentiality']/@ownedRepresentationExtensions[name='PCM%20Confidentiality%20Assembly']/@layers[name='org.palladiosimulator.dataflow.confidentiality.pcm.editor.sirius.assembly']"/>
-    <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.palladiosimulator.indirections.editor.sirius/description/indirections.odesign#//@ownedViewpoints[name='PCM-Indirections']/@ownedRepresentationExtensions[name='PCM%20Indirections%20Assembly']/@layers[name='org.palladiosimulator.indirections.editor.sirius.Indirections.assembly']"/>
-    <target xmi:type="system:System" href="newSystem.system#_LJJKAIOAEeyth_Kqe2ur6g"/>
+        <target xmi:type="system:System" href="newSystem.system#_LJJKAIOAEeyth_Kqe2ur6g"/>
   </diagram:DSemanticDiagram>
   <diagram:DSemanticDiagram uid="_gEqhsIOAEeyth_Kqe2ur6g">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_gE2H4oOAEeyth_Kqe2ur6g" source="GMF_DIAGRAMS">
