@@ -18,16 +18,20 @@
   <genPackages prefix="NodeCharacteristics" basePackage="org.dataflowanalysis.pcm.extension.nodecharacteristics"
       resource="XMI" disposableProviderFactory="true" extensibleProviderFactory="true"
       ecorePackage="nodeCharacteristics.ecore#/">
-    <genClasses image="false" ecoreClass="nodeCharacteristics.ecore#//UsageAssignee">
+    <genClasses image="false" ecoreClass="nodeCharacteristics.ecore#//UsageAssignee"
+        labelFeature="../../org.palladiosimulator.pcm/model/pcm.genmodel#//pcm/core/entity/NamedElement/entityName">
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference nodeCharacteristics.ecore#//UsageAssignee/usagescenario"/>
     </genClasses>
-    <genClasses image="false" ecoreClass="nodeCharacteristics.ecore#//ResourceAssignee">
+    <genClasses image="false" ecoreClass="nodeCharacteristics.ecore#//ResourceAssignee"
+        labelFeature="../../org.palladiosimulator.pcm/model/pcm.genmodel#//pcm/core/entity/NamedElement/entityName">
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference nodeCharacteristics.ecore#//ResourceAssignee/resourcecontainer"/>
     </genClasses>
-    <genClasses image="false" ecoreClass="nodeCharacteristics.ecore#//AssemblyAssignee">
+    <genClasses image="false" ecoreClass="nodeCharacteristics.ecore#//AssemblyAssignee"
+        labelFeature="../../org.palladiosimulator.pcm/model/pcm.genmodel#//pcm/core/entity/NamedElement/entityName">
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference nodeCharacteristics.ecore#//AssemblyAssignee/assemblycontext"/>
     </genClasses>
-    <genClasses image="false" ecoreClass="nodeCharacteristics.ecore#//AbstractAssignee">
+    <genClasses image="false" ecoreClass="nodeCharacteristics.ecore#//AbstractAssignee"
+        labelFeature="../../org.palladiosimulator.pcm/model/pcm.genmodel#//pcm/core/entity/NamedElement/entityName">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference nodeCharacteristics.ecore#//AbstractAssignee/characteristics"/>
     </genClasses>
     <genClasses image="false" ecoreClass="nodeCharacteristics.ecore#//Assignments">
