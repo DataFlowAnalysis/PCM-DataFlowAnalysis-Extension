@@ -64,16 +64,7 @@
     </nestedGenPackages>
     <nestedGenPackages prefix="Behaviour" basePackage="org.dataflowanalysis.pcm.extension.model.confidentiality"
         disposableProviderFactory="true" ecorePackage="dataFlowConfidentiality.ecore#//behaviour">
-      <genClasses ecoreClass="dataFlowConfidentiality.ecore#//behaviour/DataChannelBehaviour">
-        <genFeatures property="Readonly" notify="false" createChild="false" propertySortChoices="true"
-            ecoreFeature="ecore:EReference dataFlowConfidentiality.ecore#//behaviour/DataChannelBehaviour/dataSources"/>
-        <genFeatures property="Readonly" notify="false" createChild="false" propertySortChoices="true"
-            ecoreFeature="ecore:EReference dataFlowConfidentiality.ecore#//behaviour/DataChannelBehaviour/dataSinks"/>
-        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference dataFlowConfidentiality.ecore#//behaviour/DataChannelBehaviour/variableUsages"/>
-        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference dataFlowConfidentiality.ecore#//behaviour/DataChannelBehaviour/reusedBehaviours"/>
-      </genClasses>
       <genClasses ecoreClass="dataFlowConfidentiality.ecore#//behaviour/Behaviours">
-        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference dataFlowConfidentiality.ecore#//behaviour/Behaviours/dataChannelBehaviour"/>
         <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference dataFlowConfidentiality.ecore#//behaviour/Behaviours/reusableBehaviours"/>
       </genClasses>
       <genClasses ecoreClass="dataFlowConfidentiality.ecore#//behaviour/ReusableBehaviour">
