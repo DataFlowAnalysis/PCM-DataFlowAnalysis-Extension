@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Mwe2
 Bundle-SymbolicName: org.dataflowanalysis.pcm.extension.mwe2
-Bundle-Version: 5.2.0.qualifier
+Bundle-Version: 5.2.1.qualifier
 Automatic-Module-Name: org.dataflowanalysis.pcm.extension.mwe2
 Bundle-RequiredExecutionEnvironment: JavaSE-17
 Require-Bundle: org.apache.commons.logging,

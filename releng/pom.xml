@@ -4,12 +4,12 @@
 	<parent>
 		<groupId>org.dataflowanalysis.pcm.extension</groupId>
 		<artifactId>parent</artifactId>
-		<version>5.2.0-SNAPSHOT</version>
+		<version>5.2.1-SNAPSHOT</version>
 		<relativePath>../</relativePath>
 	</parent>
 	<groupId>org.dataflowanalysis.pcm.extension</groupId>
 	<artifactId>releng</artifactId>	
-	<version>5.2.0-SNAPSHOT</version>
+	<version>5.2.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<modules>
