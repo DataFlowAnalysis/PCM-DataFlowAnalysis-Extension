@@ -3,7 +3,7 @@ Bundle-ManifestVersion: 2
 Bundle-Name: %pluginName
 Bundle-SymbolicName: org.dataflowanalysis.pcm.extension.dictionary.characterized.edit;singleton:=true
 Automatic-Module-Name: org.dataflowanalysis.pcm.extension.dictionary.characterized.edit
-Bundle-Version: 5.2.0.qualifier
+Bundle-Version: 5.2.1.qualifier
 Bundle-ClassPath: .
 Bundle-Activator: org.dataflowanalysis.pcm.extension.dictionary.characterized.DataDictionaryCharacterized.provider.DataDictionaryCharacterizedEditPlugin$Implementation
 Bundle-Vendor: %providerName

@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Testmodels
 Bundle-SymbolicName: org.dataflowanalysis.pcm.extension.testmodels
-Bundle-Version: 5.2.0.qualifier
+Bundle-Version: 5.2.1.qualifier
 Automatic-Module-Name: org.dataflowanalysis.pcm.extension.testmodels
 Bundle-RequiredExecutionEnvironment: JavaSE-17
 Bundle-ActivationPolicy: lazy

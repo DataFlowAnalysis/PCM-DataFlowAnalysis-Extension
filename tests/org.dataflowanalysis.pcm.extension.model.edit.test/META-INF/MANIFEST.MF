@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: PCM Confidentiality Edit Test
 Bundle-SymbolicName: org.dataflowanalysis.pcm.extension.model.edit.test
-Bundle-Version: 5.2.0.qualifier
+Bundle-Version: 5.2.1.qualifier
 Automatic-Module-Name: org.dataflowanalysis.pcm.extension.model.edit.test
 Bundle-RequiredExecutionEnvironment: JavaSE-17
 Require-Bundle: org.dataflowanalysis.pcm.extension.model.edit,

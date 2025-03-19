@@ -2,7 +2,7 @@
 <feature
       id="org.dataflowanalysis.pcm.extension.feature"
       label="Data Flow Analysis PCM Extension Feature"
-      version="5.2.0.qualifier">
+      version="5.2.1.qualifier">
 
    <description url="http://www.example.com/description">
       [Enter Feature Description here.]
