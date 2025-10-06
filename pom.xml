@@ -6,15 +6,15 @@
 	<parent>
 		<groupId>org.palladiosimulator</groupId>
 		<artifactId>eclipse-parent-updatesite</artifactId>
-		<version>0.8.9</version>
+		<version>0.10.0</version>
 	</parent>
 	<groupId>org.dataflowanalysis.pcm.extension</groupId>
 	<artifactId>parent</artifactId>	
 	<version>5.2.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	
+
 	<properties>
-		<org.palladiosimulator.maven.tychotprefresh.tplocation.2>${project.basedir}/releng/org.dataflowanalysis.pcm.extension.targetplatform/org.dataflowanalysis.pcm.extension.targetplatform.target</org.palladiosimulator.maven.tychotprefresh.tplocation.2>
+		<targetPlatform.relativePath> releng/org.dataflowanalysis.pcm.extension.targetplatform/org.dataflowanalysis.pcm.extension.targetplatform.target</targetPlatform.relativePath>
 	</properties>
 	
 	<modules>
